@@ -15,7 +15,7 @@ use backend\widgets\Infobox;
     <?= Infobox::widget([
         'title' =>  'SUPERRRRRRR',
         'style' => 'red',
-        'value' => '10',
+        'value' => '10%',
         'number' => '10 %',
         'description' => 'My new descr',
         'icon' => 'fa fa-thumbs-o-up'

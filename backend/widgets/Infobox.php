@@ -35,7 +35,7 @@ class Infobox extends \yii\bootstrap\Widget
             $this->number= '50 %';
         }
         if($this->value===null){
-            $this->value= '50';
+            $this->value= '50%';
         }
         if($this->description===null){
             $this->description = 'Empty description';
@@ -46,19 +46,18 @@ class Infobox extends \yii\bootstrap\Widget
     }
 
     public function run(){
-        return          '<div class="info-box '.$this->style.'">
-                              <span class="info-box-icon"><i class="'.$this->icon.'"></i></span>
-                              <div class="info-box-content">
-                                <span class="info-box-text">'.$this->title.'</span>
-                                <span class="info-box-number">'.$this->number.'</span>
-                                <div class="progress">
-                                  <div class="progress-bar" style="width: '.$this->value.'%"></div>
-                                </div>
-                                <span class="progress-description">
-                            ' .$this->description . '
-                            </span>
-                              </div>
-                            </div>';
+        return  Html::tag(
+            'div',
+             Html::tag('span', Html::tag('i', '', ['class' => $this->icon]) , ['class' => 'info-box-icon'])
+            .Html::tag('div',
+                        Html::tag('span', Html::encode($this->title), ['class' => 'info-box-text'])
+                       .Html::tag('span', Html::encode($this->number), ['class' => 'info-box-number'])
+                       .Html::tag('div',
+                                  Html::tag('div', '', ['class' => 'progress-bar', 'style' => Html::cssStyleFromArray(['width' => $this->value ]) ]) ,
+                                 ['class' => 'progress'])
+                       .Html::tag('span', Html::encode($this->description), ['class' => 'progress-description']),
+                        ['class' => 'info-box-content']),
+            ['class' => 'info-box '.$this->style]);
     }
 
 }
