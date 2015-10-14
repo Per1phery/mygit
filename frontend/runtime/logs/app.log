@@ -1,0 +1,1348 @@
+2015-10-13 10:17:26 [192.168.216.1][-][-][warning][yii\debug\Module::checkAccess] Access to debugger is denied due to IP address restriction. The requesting IP address is 192.168.216.1
+    in /var/www/html/yii2/frontend/views/layouts/main.php:76
+    in /var/www/html/yii2/frontend/controllers/SiteController.php:75
+2015-10-13 10:17:26 [192.168.216.1][-][-][info][application] $_COOKIE = [
+    'backend_menu' => 'da93bfc085ff9407dad839b6ec81e6cdad96a345ab9e3614285c1598f37e494aa:2:{i:0;s:12:\"backend_menu\";i:1;s:6:\"normal\";}'
+    '_identity' => 'cfabb2dae15f44a3f34419b6c1310bd8ee5c483708f2f36f10c7aed178900c8ea:2:{i:0;s:9:\"_identity\";i:1;s:46:\"[0,\"WDiZRtD6jt6OcwbPkhZWoEcEbUeddM-e\",\"86400\"]\";}'
+    'PHPSESSID' => '1ph44lprhmq634bnsm001c05j3'
+    '_csrf' => '7173e056dbdaa3892a21e8033b209a4ebefab4e799be599af1ee18cc8963e2efa:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"CY-19JU8vE78eLaAmijm6aZas9UNp3N7\";}'
+]
+
+$_SESSION = [
+    '__flash' => []
+    '__returnUrl' => '/backend/web/'
+]
+
+$_SERVER = [
+    'HTTP_HOST' => '192.168.216.131'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 6.3; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/45.0.2454.101 Safari/537.36'
+    'HTTP_REFERER' => 'http://192.168.216.131/frontend/'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, sdch'
+    'HTTP_ACCEPT_LANGUAGE' => 'ru-RU,ru;q=0.8,en-US;q=0.6,en;q=0.4'
+    'HTTP_COOKIE' => 'backend_menu=da93bfc085ff9407dad839b6ec81e6cdad96a345ab9e3614285c1598f37e494aa%3A2%3A%7Bi%3A0%3Bs%3A12%3A%22backend_menu%22%3Bi%3A1%3Bs%3A6%3A%22normal%22%3B%7D; _identity=cfabb2dae15f44a3f34419b6c1310bd8ee5c483708f2f36f10c7aed178900c8ea%3A2%3A%7Bi%3A0%3Bs%3A9%3A%22_identity%22%3Bi%3A1%3Bs%3A46%3A%22%5B0%2C%22WDiZRtD6jt6OcwbPkhZWoEcEbUeddM-e%22%2C%2286400%22%5D%22%3B%7D; PHPSESSID=1ph44lprhmq634bnsm001c05j3; _csrf=7173e056dbdaa3892a21e8033b209a4ebefab4e799be599af1ee18cc8963e2efa%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22CY-19JU8vE78eLaAmijm6aZas9UNp3N7%22%3B%7D'
+    'PATH' => '/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.7 (Ubuntu) Server at 192.168.216.131 Port 80</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.7 (Ubuntu)'
+    'SERVER_NAME' => '192.168.216.131'
+    'SERVER_ADDR' => '192.168.216.131'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '192.168.216.1'
+    'DOCUMENT_ROOT' => '/var/www/html/yii2'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => '/var/www/html/yii2'
+    'SERVER_ADMIN' => 'webmaster@localhost'
+    'SCRIPT_FILENAME' => '/var/www/html/yii2/frontend/web/index.php'
+    'REMOTE_PORT' => '57744'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => ''
+    'REQUEST_URI' => '/frontend/web/'
+    'SCRIPT_NAME' => '/frontend/web/index.php'
+    'PHP_SELF' => '/frontend/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1444731446.37
+    'REQUEST_TIME' => 1444731446
+]
+2015-10-13 10:17:31 [192.168.216.1][-][-][warning][yii\debug\Module::checkAccess] Access to debugger is denied due to IP address restriction. The requesting IP address is 192.168.216.1
+    in /var/www/html/yii2/frontend/views/layouts/main.php:76
+    in /var/www/html/yii2/frontend/controllers/SiteController.php:75
+2015-10-13 10:17:31 [192.168.216.1][-][-][info][application] $_COOKIE = [
+    'backend_menu' => 'da93bfc085ff9407dad839b6ec81e6cdad96a345ab9e3614285c1598f37e494aa:2:{i:0;s:12:\"backend_menu\";i:1;s:6:\"normal\";}'
+    '_identity' => 'cfabb2dae15f44a3f34419b6c1310bd8ee5c483708f2f36f10c7aed178900c8ea:2:{i:0;s:9:\"_identity\";i:1;s:46:\"[0,\"WDiZRtD6jt6OcwbPkhZWoEcEbUeddM-e\",\"86400\"]\";}'
+    'PHPSESSID' => '1ph44lprhmq634bnsm001c05j3'
+    '_csrf' => 'cce60e2ef7046b41a5b887b258f59bc362cd7c2b0fe59e09e709c418699fde87a:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"8pOvlMv-g1KjmGm6b3dVTFTWphKuFakt\";}'
+]
+
+$_SESSION = [
+    '__flash' => []
+    '__returnUrl' => '/backend/web/'
+]
+
+$_SERVER = [
+    'HTTP_HOST' => '192.168.216.131'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 6.3; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/45.0.2454.101 Safari/537.36'
+    'HTTP_REFERER' => 'http://192.168.216.131/frontend/'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, sdch'
+    'HTTP_ACCEPT_LANGUAGE' => 'ru-RU,ru;q=0.8,en-US;q=0.6,en;q=0.4'
+    'HTTP_COOKIE' => 'backend_menu=da93bfc085ff9407dad839b6ec81e6cdad96a345ab9e3614285c1598f37e494aa%3A2%3A%7Bi%3A0%3Bs%3A12%3A%22backend_menu%22%3Bi%3A1%3Bs%3A6%3A%22normal%22%3B%7D; _identity=cfabb2dae15f44a3f34419b6c1310bd8ee5c483708f2f36f10c7aed178900c8ea%3A2%3A%7Bi%3A0%3Bs%3A9%3A%22_identity%22%3Bi%3A1%3Bs%3A46%3A%22%5B0%2C%22WDiZRtD6jt6OcwbPkhZWoEcEbUeddM-e%22%2C%2286400%22%5D%22%3B%7D; PHPSESSID=1ph44lprhmq634bnsm001c05j3; _csrf=cce60e2ef7046b41a5b887b258f59bc362cd7c2b0fe59e09e709c418699fde87a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%228pOvlMv-g1KjmGm6b3dVTFTWphKuFakt%22%3B%7D'
+    'PATH' => '/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.7 (Ubuntu) Server at 192.168.216.131 Port 80</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.7 (Ubuntu)'
+    'SERVER_NAME' => '192.168.216.131'
+    'SERVER_ADDR' => '192.168.216.131'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '192.168.216.1'
+    'DOCUMENT_ROOT' => '/var/www/html/yii2'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => '/var/www/html/yii2'
+    'SERVER_ADMIN' => 'webmaster@localhost'
+    'SCRIPT_FILENAME' => '/var/www/html/yii2/frontend/web/index.php'
+    'REMOTE_PORT' => '57744'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => ''
+    'REQUEST_URI' => '/frontend/web/'
+    'SCRIPT_NAME' => '/frontend/web/index.php'
+    'PHP_SELF' => '/frontend/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1444731451.122
+    'REQUEST_TIME' => 1444731451
+]
+2015-10-13 10:17:34 [192.168.216.1][-][-][warning][yii\debug\Module::checkAccess] Access to debugger is denied due to IP address restriction. The requesting IP address is 192.168.216.1
+    in /var/www/html/yii2/frontend/views/layouts/main.php:76
+    in /var/www/html/yii2/frontend/controllers/SiteController.php:75
+2015-10-13 10:17:34 [192.168.216.1][-][-][info][application] $_COOKIE = [
+    'backend_menu' => 'da93bfc085ff9407dad839b6ec81e6cdad96a345ab9e3614285c1598f37e494aa:2:{i:0;s:12:\"backend_menu\";i:1;s:6:\"normal\";}'
+    '_identity' => 'cfabb2dae15f44a3f34419b6c1310bd8ee5c483708f2f36f10c7aed178900c8ea:2:{i:0;s:9:\"_identity\";i:1;s:46:\"[0,\"WDiZRtD6jt6OcwbPkhZWoEcEbUeddM-e\",\"86400\"]\";}'
+    'PHPSESSID' => '1ph44lprhmq634bnsm001c05j3'
+    '_csrf' => 'cce60e2ef7046b41a5b887b258f59bc362cd7c2b0fe59e09e709c418699fde87a:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"8pOvlMv-g1KjmGm6b3dVTFTWphKuFakt\";}'
+]
+
+$_SESSION = [
+    '__flash' => []
+    '__returnUrl' => '/backend/web/'
+]
+
+$_SERVER = [
+    'HTTP_HOST' => '192.168.216.131'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 6.3; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/45.0.2454.101 Safari/537.36'
+    'HTTP_REFERER' => 'http://192.168.216.131/frontend/'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, sdch'
+    'HTTP_ACCEPT_LANGUAGE' => 'ru-RU,ru;q=0.8,en-US;q=0.6,en;q=0.4'
+    'HTTP_COOKIE' => 'backend_menu=da93bfc085ff9407dad839b6ec81e6cdad96a345ab9e3614285c1598f37e494aa%3A2%3A%7Bi%3A0%3Bs%3A12%3A%22backend_menu%22%3Bi%3A1%3Bs%3A6%3A%22normal%22%3B%7D; _identity=cfabb2dae15f44a3f34419b6c1310bd8ee5c483708f2f36f10c7aed178900c8ea%3A2%3A%7Bi%3A0%3Bs%3A9%3A%22_identity%22%3Bi%3A1%3Bs%3A46%3A%22%5B0%2C%22WDiZRtD6jt6OcwbPkhZWoEcEbUeddM-e%22%2C%2286400%22%5D%22%3B%7D; PHPSESSID=1ph44lprhmq634bnsm001c05j3; _csrf=cce60e2ef7046b41a5b887b258f59bc362cd7c2b0fe59e09e709c418699fde87a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%228pOvlMv-g1KjmGm6b3dVTFTWphKuFakt%22%3B%7D'
+    'PATH' => '/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.7 (Ubuntu) Server at 192.168.216.131 Port 80</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.7 (Ubuntu)'
+    'SERVER_NAME' => '192.168.216.131'
+    'SERVER_ADDR' => '192.168.216.131'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '192.168.216.1'
+    'DOCUMENT_ROOT' => '/var/www/html/yii2'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => '/var/www/html/yii2'
+    'SERVER_ADMIN' => 'webmaster@localhost'
+    'SCRIPT_FILENAME' => '/var/www/html/yii2/frontend/web/index.php'
+    'REMOTE_PORT' => '57744'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => ''
+    'REQUEST_URI' => '/frontend/web/'
+    'SCRIPT_NAME' => '/frontend/web/index.php'
+    'PHP_SELF' => '/frontend/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1444731454.883
+    'REQUEST_TIME' => 1444731454
+]
+2015-10-13 10:45:56 [192.168.216.1][-][-][warning][yii\debug\Module::checkAccess] Access to debugger is denied due to IP address restriction. The requesting IP address is 192.168.216.1
+    in /var/www/html/yii2/frontend/views/layouts/main.php:76
+    in /var/www/html/yii2/frontend/controllers/SiteController.php:75
+2015-10-13 10:45:56 [192.168.216.1][-][-][info][application] $_COOKIE = [
+    'backend_menu' => 'da93bfc085ff9407dad839b6ec81e6cdad96a345ab9e3614285c1598f37e494aa:2:{i:0;s:12:\"backend_menu\";i:1;s:6:\"normal\";}'
+    '_identity' => 'cfabb2dae15f44a3f34419b6c1310bd8ee5c483708f2f36f10c7aed178900c8ea:2:{i:0;s:9:\"_identity\";i:1;s:46:\"[0,\"WDiZRtD6jt6OcwbPkhZWoEcEbUeddM-e\",\"86400\"]\";}'
+    '_csrf' => '0bb1c97bd2fb33af549e22e2ce8e24c01b0c15d30c7146f5c050f3ce32d40bf6a:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"BWGCB2hjhM0AYbxFampvIUDGq7S7xoa4\";}'
+    'PHPSESSID' => '1ph44lprhmq634bnsm001c05j3'
+]
+
+$_SESSION = [
+    '__flash' => []
+    '__returnUrl' => '/backend/web/index.php'
+]
+
+$_SERVER = [
+    'HTTP_HOST' => '192.168.216.131'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 6.3; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/45.0.2454.101 Safari/537.36'
+    'HTTP_REFERER' => 'http://192.168.216.131/frontend/'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, sdch'
+    'HTTP_ACCEPT_LANGUAGE' => 'ru-RU,ru;q=0.8,en-US;q=0.6,en;q=0.4'
+    'HTTP_COOKIE' => 'backend_menu=da93bfc085ff9407dad839b6ec81e6cdad96a345ab9e3614285c1598f37e494aa%3A2%3A%7Bi%3A0%3Bs%3A12%3A%22backend_menu%22%3Bi%3A1%3Bs%3A6%3A%22normal%22%3B%7D; _identity=cfabb2dae15f44a3f34419b6c1310bd8ee5c483708f2f36f10c7aed178900c8ea%3A2%3A%7Bi%3A0%3Bs%3A9%3A%22_identity%22%3Bi%3A1%3Bs%3A46%3A%22%5B0%2C%22WDiZRtD6jt6OcwbPkhZWoEcEbUeddM-e%22%2C%2286400%22%5D%22%3B%7D; _csrf=0bb1c97bd2fb33af549e22e2ce8e24c01b0c15d30c7146f5c050f3ce32d40bf6a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22BWGCB2hjhM0AYbxFampvIUDGq7S7xoa4%22%3B%7D; PHPSESSID=1ph44lprhmq634bnsm001c05j3'
+    'PATH' => '/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.7 (Ubuntu) Server at 192.168.216.131 Port 80</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.7 (Ubuntu)'
+    'SERVER_NAME' => '192.168.216.131'
+    'SERVER_ADDR' => '192.168.216.131'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '192.168.216.1'
+    'DOCUMENT_ROOT' => '/var/www/html/yii2'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => '/var/www/html/yii2'
+    'SERVER_ADMIN' => 'webmaster@localhost'
+    'SCRIPT_FILENAME' => '/var/www/html/yii2/frontend/web/index.php'
+    'REMOTE_PORT' => '61547'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => ''
+    'REQUEST_URI' => '/frontend/web/'
+    'SCRIPT_NAME' => '/frontend/web/index.php'
+    'PHP_SELF' => '/frontend/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1444733156.303
+    'REQUEST_TIME' => 1444733156
+]
+2015-10-13 10:45:59 [192.168.216.1][-][-][warning][yii\debug\Module::checkAccess] Access to debugger is denied due to IP address restriction. The requesting IP address is 192.168.216.1
+    in /var/www/html/yii2/frontend/views/layouts/main.php:76
+    in /var/www/html/yii2/frontend/controllers/SiteController.php:162
+2015-10-13 10:45:59 [192.168.216.1][-][-][info][application] $_GET = [
+    'r' => 'site/signup'
+]
+
+$_COOKIE = [
+    'backend_menu' => 'da93bfc085ff9407dad839b6ec81e6cdad96a345ab9e3614285c1598f37e494aa:2:{i:0;s:12:\"backend_menu\";i:1;s:6:\"normal\";}'
+    '_identity' => 'cfabb2dae15f44a3f34419b6c1310bd8ee5c483708f2f36f10c7aed178900c8ea:2:{i:0;s:9:\"_identity\";i:1;s:46:\"[0,\"WDiZRtD6jt6OcwbPkhZWoEcEbUeddM-e\",\"86400\"]\";}'
+    'PHPSESSID' => '1ph44lprhmq634bnsm001c05j3'
+    '_csrf' => 'a70b10e661a75d48e31e4bf1821910741b4afd95b1f7245c8cf89598d0bc78eca:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"OMYqui_j7TdaBtt-XLgjMRMPU4gGKXMy\";}'
+]
+
+$_SESSION = [
+    '__flash' => []
+    '__returnUrl' => '/backend/web/index.php'
+]
+
+$_SERVER = [
+    'HTTP_HOST' => '192.168.216.131'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 6.3; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/45.0.2454.101 Safari/537.36'
+    'HTTP_REFERER' => 'http://192.168.216.131/frontend/web/'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, sdch'
+    'HTTP_ACCEPT_LANGUAGE' => 'ru-RU,ru;q=0.8,en-US;q=0.6,en;q=0.4'
+    'HTTP_COOKIE' => 'backend_menu=da93bfc085ff9407dad839b6ec81e6cdad96a345ab9e3614285c1598f37e494aa%3A2%3A%7Bi%3A0%3Bs%3A12%3A%22backend_menu%22%3Bi%3A1%3Bs%3A6%3A%22normal%22%3B%7D; _identity=cfabb2dae15f44a3f34419b6c1310bd8ee5c483708f2f36f10c7aed178900c8ea%3A2%3A%7Bi%3A0%3Bs%3A9%3A%22_identity%22%3Bi%3A1%3Bs%3A46%3A%22%5B0%2C%22WDiZRtD6jt6OcwbPkhZWoEcEbUeddM-e%22%2C%2286400%22%5D%22%3B%7D; PHPSESSID=1ph44lprhmq634bnsm001c05j3; _csrf=a70b10e661a75d48e31e4bf1821910741b4afd95b1f7245c8cf89598d0bc78eca%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22OMYqui_j7TdaBtt-XLgjMRMPU4gGKXMy%22%3B%7D'
+    'PATH' => '/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.7 (Ubuntu) Server at 192.168.216.131 Port 80</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.7 (Ubuntu)'
+    'SERVER_NAME' => '192.168.216.131'
+    'SERVER_ADDR' => '192.168.216.131'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '192.168.216.1'
+    'DOCUMENT_ROOT' => '/var/www/html/yii2'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => '/var/www/html/yii2'
+    'SERVER_ADMIN' => 'webmaster@localhost'
+    'SCRIPT_FILENAME' => '/var/www/html/yii2/frontend/web/index.php'
+    'REMOTE_PORT' => '61550'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => 'r=site%2Fsignup'
+    'REQUEST_URI' => '/frontend/web/index.php?r=site%2Fsignup'
+    'SCRIPT_NAME' => '/frontend/web/index.php'
+    'PHP_SELF' => '/frontend/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1444733159.507
+    'REQUEST_TIME' => 1444733159
+]
+2015-10-13 10:46:00 [192.168.216.1][-][-][warning][yii\debug\Module::checkAccess] Access to debugger is denied due to IP address restriction. The requesting IP address is 192.168.216.1
+    in /var/www/html/yii2/frontend/views/layouts/main.php:76
+    in /var/www/html/yii2/frontend/controllers/SiteController.php:141
+2015-10-13 10:46:00 [192.168.216.1][-][-][info][application] $_GET = [
+    'r' => 'site/about'
+]
+
+$_COOKIE = [
+    'backend_menu' => 'da93bfc085ff9407dad839b6ec81e6cdad96a345ab9e3614285c1598f37e494aa:2:{i:0;s:12:\"backend_menu\";i:1;s:6:\"normal\";}'
+    '_identity' => 'cfabb2dae15f44a3f34419b6c1310bd8ee5c483708f2f36f10c7aed178900c8ea:2:{i:0;s:9:\"_identity\";i:1;s:46:\"[0,\"WDiZRtD6jt6OcwbPkhZWoEcEbUeddM-e\",\"86400\"]\";}'
+    'PHPSESSID' => '1ph44lprhmq634bnsm001c05j3'
+    '_csrf' => 'a70b10e661a75d48e31e4bf1821910741b4afd95b1f7245c8cf89598d0bc78eca:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"OMYqui_j7TdaBtt-XLgjMRMPU4gGKXMy\";}'
+]
+
+$_SESSION = [
+    '__flash' => []
+    '__returnUrl' => '/backend/web/index.php'
+]
+
+$_SERVER = [
+    'HTTP_HOST' => '192.168.216.131'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 6.3; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/45.0.2454.101 Safari/537.36'
+    'HTTP_REFERER' => 'http://192.168.216.131/frontend/web/index.php?r=site%2Fsignup'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, sdch'
+    'HTTP_ACCEPT_LANGUAGE' => 'ru-RU,ru;q=0.8,en-US;q=0.6,en;q=0.4'
+    'HTTP_COOKIE' => 'backend_menu=da93bfc085ff9407dad839b6ec81e6cdad96a345ab9e3614285c1598f37e494aa%3A2%3A%7Bi%3A0%3Bs%3A12%3A%22backend_menu%22%3Bi%3A1%3Bs%3A6%3A%22normal%22%3B%7D; _identity=cfabb2dae15f44a3f34419b6c1310bd8ee5c483708f2f36f10c7aed178900c8ea%3A2%3A%7Bi%3A0%3Bs%3A9%3A%22_identity%22%3Bi%3A1%3Bs%3A46%3A%22%5B0%2C%22WDiZRtD6jt6OcwbPkhZWoEcEbUeddM-e%22%2C%2286400%22%5D%22%3B%7D; PHPSESSID=1ph44lprhmq634bnsm001c05j3; _csrf=a70b10e661a75d48e31e4bf1821910741b4afd95b1f7245c8cf89598d0bc78eca%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22OMYqui_j7TdaBtt-XLgjMRMPU4gGKXMy%22%3B%7D'
+    'PATH' => '/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.7 (Ubuntu) Server at 192.168.216.131 Port 80</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.7 (Ubuntu)'
+    'SERVER_NAME' => '192.168.216.131'
+    'SERVER_ADDR' => '192.168.216.131'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '192.168.216.1'
+    'DOCUMENT_ROOT' => '/var/www/html/yii2'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => '/var/www/html/yii2'
+    'SERVER_ADMIN' => 'webmaster@localhost'
+    'SCRIPT_FILENAME' => '/var/www/html/yii2/frontend/web/index.php'
+    'REMOTE_PORT' => '61547'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => 'r=site%2Fabout'
+    'REQUEST_URI' => '/frontend/web/index.php?r=site%2Fabout'
+    'SCRIPT_NAME' => '/frontend/web/index.php'
+    'PHP_SELF' => '/frontend/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1444733160.147
+    'REQUEST_TIME' => 1444733160
+]
+2015-10-13 10:46:01 [192.168.216.1][-][-][warning][yii\debug\Module::checkAccess] Access to debugger is denied due to IP address restriction. The requesting IP address is 192.168.216.1
+    in /var/www/html/yii2/frontend/views/layouts/main.php:76
+    in /var/www/html/yii2/frontend/controllers/SiteController.php:75
+2015-10-13 10:46:01 [192.168.216.1][-][-][info][application] $_GET = [
+    'r' => 'site/index'
+]
+
+$_COOKIE = [
+    'backend_menu' => 'da93bfc085ff9407dad839b6ec81e6cdad96a345ab9e3614285c1598f37e494aa:2:{i:0;s:12:\"backend_menu\";i:1;s:6:\"normal\";}'
+    '_identity' => 'cfabb2dae15f44a3f34419b6c1310bd8ee5c483708f2f36f10c7aed178900c8ea:2:{i:0;s:9:\"_identity\";i:1;s:46:\"[0,\"WDiZRtD6jt6OcwbPkhZWoEcEbUeddM-e\",\"86400\"]\";}'
+    '_csrf' => 'a70b10e661a75d48e31e4bf1821910741b4afd95b1f7245c8cf89598d0bc78eca:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"OMYqui_j7TdaBtt-XLgjMRMPU4gGKXMy\";}'
+    'PHPSESSID' => '1ph44lprhmq634bnsm001c05j3'
+]
+
+$_SESSION = [
+    '__flash' => []
+    '__returnUrl' => '/backend/web/index.php'
+]
+
+$_SERVER = [
+    'HTTP_HOST' => '192.168.216.131'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 6.3; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/45.0.2454.101 Safari/537.36'
+    'HTTP_REFERER' => 'http://192.168.216.131/frontend/web/index.php?r=site%2Fabout'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, sdch'
+    'HTTP_ACCEPT_LANGUAGE' => 'ru-RU,ru;q=0.8,en-US;q=0.6,en;q=0.4'
+    'HTTP_COOKIE' => 'backend_menu=da93bfc085ff9407dad839b6ec81e6cdad96a345ab9e3614285c1598f37e494aa%3A2%3A%7Bi%3A0%3Bs%3A12%3A%22backend_menu%22%3Bi%3A1%3Bs%3A6%3A%22normal%22%3B%7D; _identity=cfabb2dae15f44a3f34419b6c1310bd8ee5c483708f2f36f10c7aed178900c8ea%3A2%3A%7Bi%3A0%3Bs%3A9%3A%22_identity%22%3Bi%3A1%3Bs%3A46%3A%22%5B0%2C%22WDiZRtD6jt6OcwbPkhZWoEcEbUeddM-e%22%2C%2286400%22%5D%22%3B%7D; _csrf=a70b10e661a75d48e31e4bf1821910741b4afd95b1f7245c8cf89598d0bc78eca%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22OMYqui_j7TdaBtt-XLgjMRMPU4gGKXMy%22%3B%7D; PHPSESSID=1ph44lprhmq634bnsm001c05j3'
+    'PATH' => '/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.7 (Ubuntu) Server at 192.168.216.131 Port 80</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.7 (Ubuntu)'
+    'SERVER_NAME' => '192.168.216.131'
+    'SERVER_ADDR' => '192.168.216.131'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '192.168.216.1'
+    'DOCUMENT_ROOT' => '/var/www/html/yii2'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => '/var/www/html/yii2'
+    'SERVER_ADMIN' => 'webmaster@localhost'
+    'SCRIPT_FILENAME' => '/var/www/html/yii2/frontend/web/index.php'
+    'REMOTE_PORT' => '61547'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => 'r=site%2Findex'
+    'REQUEST_URI' => '/frontend/web/index.php?r=site%2Findex'
+    'SCRIPT_NAME' => '/frontend/web/index.php'
+    'PHP_SELF' => '/frontend/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1444733161.394
+    'REQUEST_TIME' => 1444733161
+]
+2015-10-13 10:46:01 [192.168.216.1][-][-][warning][yii\debug\Module::checkAccess] Access to debugger is denied due to IP address restriction. The requesting IP address is 192.168.216.1
+    in /var/www/html/yii2/frontend/views/layouts/main.php:76
+    in /var/www/html/yii2/frontend/controllers/SiteController.php:130
+2015-10-13 10:46:01 [192.168.216.1][-][-][info][application] $_GET = [
+    'r' => 'site/contact'
+]
+
+$_COOKIE = [
+    'backend_menu' => 'da93bfc085ff9407dad839b6ec81e6cdad96a345ab9e3614285c1598f37e494aa:2:{i:0;s:12:\"backend_menu\";i:1;s:6:\"normal\";}'
+    '_identity' => 'cfabb2dae15f44a3f34419b6c1310bd8ee5c483708f2f36f10c7aed178900c8ea:2:{i:0;s:9:\"_identity\";i:1;s:46:\"[0,\"WDiZRtD6jt6OcwbPkhZWoEcEbUeddM-e\",\"86400\"]\";}'
+    '_csrf' => 'a70b10e661a75d48e31e4bf1821910741b4afd95b1f7245c8cf89598d0bc78eca:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"OMYqui_j7TdaBtt-XLgjMRMPU4gGKXMy\";}'
+    'PHPSESSID' => '1ph44lprhmq634bnsm001c05j3'
+]
+
+$_SESSION = [
+    '__flash' => []
+    '__returnUrl' => '/backend/web/index.php'
+    '__captcha/site/captcha' => 'tuvtga'
+    '__captcha/site/captchacount' => 1
+]
+
+$_SERVER = [
+    'HTTP_HOST' => '192.168.216.131'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 6.3; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/45.0.2454.101 Safari/537.36'
+    'HTTP_REFERER' => 'http://192.168.216.131/frontend/web/index.php?r=site%2Findex'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, sdch'
+    'HTTP_ACCEPT_LANGUAGE' => 'ru-RU,ru;q=0.8,en-US;q=0.6,en;q=0.4'
+    'HTTP_COOKIE' => 'backend_menu=da93bfc085ff9407dad839b6ec81e6cdad96a345ab9e3614285c1598f37e494aa%3A2%3A%7Bi%3A0%3Bs%3A12%3A%22backend_menu%22%3Bi%3A1%3Bs%3A6%3A%22normal%22%3B%7D; _identity=cfabb2dae15f44a3f34419b6c1310bd8ee5c483708f2f36f10c7aed178900c8ea%3A2%3A%7Bi%3A0%3Bs%3A9%3A%22_identity%22%3Bi%3A1%3Bs%3A46%3A%22%5B0%2C%22WDiZRtD6jt6OcwbPkhZWoEcEbUeddM-e%22%2C%2286400%22%5D%22%3B%7D; _csrf=a70b10e661a75d48e31e4bf1821910741b4afd95b1f7245c8cf89598d0bc78eca%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22OMYqui_j7TdaBtt-XLgjMRMPU4gGKXMy%22%3B%7D; PHPSESSID=1ph44lprhmq634bnsm001c05j3'
+    'PATH' => '/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.7 (Ubuntu) Server at 192.168.216.131 Port 80</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.7 (Ubuntu)'
+    'SERVER_NAME' => '192.168.216.131'
+    'SERVER_ADDR' => '192.168.216.131'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '192.168.216.1'
+    'DOCUMENT_ROOT' => '/var/www/html/yii2'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => '/var/www/html/yii2'
+    'SERVER_ADMIN' => 'webmaster@localhost'
+    'SCRIPT_FILENAME' => '/var/www/html/yii2/frontend/web/index.php'
+    'REMOTE_PORT' => '61547'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => 'r=site%2Fcontact'
+    'REQUEST_URI' => '/frontend/web/index.php?r=site%2Fcontact'
+    'SCRIPT_NAME' => '/frontend/web/index.php'
+    'PHP_SELF' => '/frontend/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1444733161.954
+    'REQUEST_TIME' => 1444733161
+]
+2015-10-13 10:46:02 [192.168.216.1][-][-][warning][yii\debug\Module::checkAccess] Access to debugger is denied due to IP address restriction. The requesting IP address is 192.168.216.1
+    in /var/www/html/yii2/frontend/views/layouts/main.php:76
+    in /var/www/html/yii2/frontend/controllers/SiteController.php:162
+2015-10-13 10:46:02 [192.168.216.1][-][-][info][application] $_GET = [
+    'r' => 'site/signup'
+]
+
+$_COOKIE = [
+    'backend_menu' => 'da93bfc085ff9407dad839b6ec81e6cdad96a345ab9e3614285c1598f37e494aa:2:{i:0;s:12:\"backend_menu\";i:1;s:6:\"normal\";}'
+    '_identity' => 'cfabb2dae15f44a3f34419b6c1310bd8ee5c483708f2f36f10c7aed178900c8ea:2:{i:0;s:9:\"_identity\";i:1;s:46:\"[0,\"WDiZRtD6jt6OcwbPkhZWoEcEbUeddM-e\",\"86400\"]\";}'
+    '_csrf' => 'a70b10e661a75d48e31e4bf1821910741b4afd95b1f7245c8cf89598d0bc78eca:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"OMYqui_j7TdaBtt-XLgjMRMPU4gGKXMy\";}'
+    'PHPSESSID' => '1ph44lprhmq634bnsm001c05j3'
+]
+
+$_SESSION = [
+    '__flash' => []
+    '__returnUrl' => '/backend/web/index.php'
+    '__captcha/site/captcha' => 'tuvtga'
+    '__captcha/site/captchacount' => 1
+]
+
+$_SERVER = [
+    'HTTP_HOST' => '192.168.216.131'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 6.3; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/45.0.2454.101 Safari/537.36'
+    'HTTP_REFERER' => 'http://192.168.216.131/frontend/web/index.php?r=site%2Fcontact'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, sdch'
+    'HTTP_ACCEPT_LANGUAGE' => 'ru-RU,ru;q=0.8,en-US;q=0.6,en;q=0.4'
+    'HTTP_COOKIE' => 'backend_menu=da93bfc085ff9407dad839b6ec81e6cdad96a345ab9e3614285c1598f37e494aa%3A2%3A%7Bi%3A0%3Bs%3A12%3A%22backend_menu%22%3Bi%3A1%3Bs%3A6%3A%22normal%22%3B%7D; _identity=cfabb2dae15f44a3f34419b6c1310bd8ee5c483708f2f36f10c7aed178900c8ea%3A2%3A%7Bi%3A0%3Bs%3A9%3A%22_identity%22%3Bi%3A1%3Bs%3A46%3A%22%5B0%2C%22WDiZRtD6jt6OcwbPkhZWoEcEbUeddM-e%22%2C%2286400%22%5D%22%3B%7D; _csrf=a70b10e661a75d48e31e4bf1821910741b4afd95b1f7245c8cf89598d0bc78eca%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22OMYqui_j7TdaBtt-XLgjMRMPU4gGKXMy%22%3B%7D; PHPSESSID=1ph44lprhmq634bnsm001c05j3'
+    'PATH' => '/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.7 (Ubuntu) Server at 192.168.216.131 Port 80</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.7 (Ubuntu)'
+    'SERVER_NAME' => '192.168.216.131'
+    'SERVER_ADDR' => '192.168.216.131'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '192.168.216.1'
+    'DOCUMENT_ROOT' => '/var/www/html/yii2'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => '/var/www/html/yii2'
+    'SERVER_ADMIN' => 'webmaster@localhost'
+    'SCRIPT_FILENAME' => '/var/www/html/yii2/frontend/web/index.php'
+    'REMOTE_PORT' => '61550'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => 'r=site%2Fsignup'
+    'REQUEST_URI' => '/frontend/web/index.php?r=site%2Fsignup'
+    'SCRIPT_NAME' => '/frontend/web/index.php'
+    'PHP_SELF' => '/frontend/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1444733162.409
+    'REQUEST_TIME' => 1444733162
+]
+2015-10-13 10:46:21 [192.168.216.1][1][-][warning][yii\debug\Module::checkAccess] Access to debugger is denied due to IP address restriction. The requesting IP address is 192.168.216.1
+    in /var/www/html/yii2/frontend/views/layouts/main.php:76
+    in /var/www/html/yii2/frontend/controllers/SiteController.php:75
+2015-10-13 10:46:21 [192.168.216.1][1][-][info][application] $_COOKIE = [
+    'backend_menu' => 'da93bfc085ff9407dad839b6ec81e6cdad96a345ab9e3614285c1598f37e494aa:2:{i:0;s:12:\"backend_menu\";i:1;s:6:\"normal\";}'
+    '_identity' => 'cfabb2dae15f44a3f34419b6c1310bd8ee5c483708f2f36f10c7aed178900c8ea:2:{i:0;s:9:\"_identity\";i:1;s:46:\"[0,\"WDiZRtD6jt6OcwbPkhZWoEcEbUeddM-e\",\"86400\"]\";}'
+    '_csrf' => 'a70b10e661a75d48e31e4bf1821910741b4afd95b1f7245c8cf89598d0bc78eca:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"OMYqui_j7TdaBtt-XLgjMRMPU4gGKXMy\";}'
+    'PHPSESSID' => 'v2eo48504jpros85p8t45j07u1'
+]
+
+$_SESSION = [
+    '__flash' => []
+    '__returnUrl' => '/backend/web/index.php'
+    '__captcha/site/captcha' => 'tuvtga'
+    '__captcha/site/captchacount' => 1
+    '__id' => 1
+]
+
+$_SERVER = [
+    'HTTP_HOST' => '192.168.216.131'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_CACHE_CONTROL' => 'max-age=0'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 6.3; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/45.0.2454.101 Safari/537.36'
+    'HTTP_REFERER' => 'http://192.168.216.131/frontend/web/index.php?r=site%2Fsignup'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, sdch'
+    'HTTP_ACCEPT_LANGUAGE' => 'ru-RU,ru;q=0.8,en-US;q=0.6,en;q=0.4'
+    'HTTP_COOKIE' => 'backend_menu=da93bfc085ff9407dad839b6ec81e6cdad96a345ab9e3614285c1598f37e494aa%3A2%3A%7Bi%3A0%3Bs%3A12%3A%22backend_menu%22%3Bi%3A1%3Bs%3A6%3A%22normal%22%3B%7D; _identity=cfabb2dae15f44a3f34419b6c1310bd8ee5c483708f2f36f10c7aed178900c8ea%3A2%3A%7Bi%3A0%3Bs%3A9%3A%22_identity%22%3Bi%3A1%3Bs%3A46%3A%22%5B0%2C%22WDiZRtD6jt6OcwbPkhZWoEcEbUeddM-e%22%2C%2286400%22%5D%22%3B%7D; _csrf=a70b10e661a75d48e31e4bf1821910741b4afd95b1f7245c8cf89598d0bc78eca%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22OMYqui_j7TdaBtt-XLgjMRMPU4gGKXMy%22%3B%7D; PHPSESSID=v2eo48504jpros85p8t45j07u1'
+    'PATH' => '/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.7 (Ubuntu) Server at 192.168.216.131 Port 80</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.7 (Ubuntu)'
+    'SERVER_NAME' => '192.168.216.131'
+    'SERVER_ADDR' => '192.168.216.131'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '192.168.216.1'
+    'DOCUMENT_ROOT' => '/var/www/html/yii2'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => '/var/www/html/yii2'
+    'SERVER_ADMIN' => 'webmaster@localhost'
+    'SCRIPT_FILENAME' => '/var/www/html/yii2/frontend/web/index.php'
+    'REMOTE_PORT' => '61554'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => ''
+    'REQUEST_URI' => '/frontend/web/index.php'
+    'SCRIPT_NAME' => '/frontend/web/index.php'
+    'PHP_SELF' => '/frontend/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1444733181.122
+    'REQUEST_TIME' => 1444733181
+]
+2015-10-13 10:46:23 [192.168.216.1][-][-][warning][yii\debug\Module::checkAccess] Access to debugger is denied due to IP address restriction. The requesting IP address is 192.168.216.1
+    in /var/www/html/yii2/frontend/views/layouts/main.php:76
+    in /var/www/html/yii2/frontend/controllers/SiteController.php:75
+2015-10-13 10:46:23 [192.168.216.1][-][-][info][application] $_COOKIE = [
+    'backend_menu' => 'da93bfc085ff9407dad839b6ec81e6cdad96a345ab9e3614285c1598f37e494aa:2:{i:0;s:12:\"backend_menu\";i:1;s:6:\"normal\";}'
+    '_csrf' => 'a70b10e661a75d48e31e4bf1821910741b4afd95b1f7245c8cf89598d0bc78eca:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"OMYqui_j7TdaBtt-XLgjMRMPU4gGKXMy\";}'
+    'PHPSESSID' => 'sqq84lar6c1bl7pdvsofq10oe3'
+]
+
+$_SESSION = [
+    '__flash' => []
+]
+
+$_SERVER = [
+    'HTTP_HOST' => '192.168.216.131'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_CACHE_CONTROL' => 'max-age=0'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 6.3; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/45.0.2454.101 Safari/537.36'
+    'HTTP_REFERER' => 'http://192.168.216.131/frontend/web/index.php'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, sdch'
+    'HTTP_ACCEPT_LANGUAGE' => 'ru-RU,ru;q=0.8,en-US;q=0.6,en;q=0.4'
+    'HTTP_COOKIE' => 'backend_menu=da93bfc085ff9407dad839b6ec81e6cdad96a345ab9e3614285c1598f37e494aa%3A2%3A%7Bi%3A0%3Bs%3A12%3A%22backend_menu%22%3Bi%3A1%3Bs%3A6%3A%22normal%22%3B%7D; _csrf=a70b10e661a75d48e31e4bf1821910741b4afd95b1f7245c8cf89598d0bc78eca%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22OMYqui_j7TdaBtt-XLgjMRMPU4gGKXMy%22%3B%7D; PHPSESSID=sqq84lar6c1bl7pdvsofq10oe3'
+    'PATH' => '/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.7 (Ubuntu) Server at 192.168.216.131 Port 80</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.7 (Ubuntu)'
+    'SERVER_NAME' => '192.168.216.131'
+    'SERVER_ADDR' => '192.168.216.131'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '192.168.216.1'
+    'DOCUMENT_ROOT' => '/var/www/html/yii2'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => '/var/www/html/yii2'
+    'SERVER_ADMIN' => 'webmaster@localhost'
+    'SCRIPT_FILENAME' => '/var/www/html/yii2/frontend/web/index.php'
+    'REMOTE_PORT' => '61554'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => ''
+    'REQUEST_URI' => '/frontend/web/index.php'
+    'SCRIPT_NAME' => '/frontend/web/index.php'
+    'PHP_SELF' => '/frontend/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1444733183.509
+    'REQUEST_TIME' => 1444733183
+]
+2015-10-13 10:46:24 [192.168.216.1][-][-][warning][yii\debug\Module::checkAccess] Access to debugger is denied due to IP address restriction. The requesting IP address is 192.168.216.1
+    in /var/www/html/yii2/frontend/views/layouts/main.php:76
+    in /var/www/html/yii2/frontend/controllers/SiteController.php:95
+2015-10-13 10:46:24 [192.168.216.1][-][-][info][application] $_GET = [
+    'r' => 'site/login'
+]
+
+$_COOKIE = [
+    'backend_menu' => 'da93bfc085ff9407dad839b6ec81e6cdad96a345ab9e3614285c1598f37e494aa:2:{i:0;s:12:\"backend_menu\";i:1;s:6:\"normal\";}'
+    '_csrf' => 'a70b10e661a75d48e31e4bf1821910741b4afd95b1f7245c8cf89598d0bc78eca:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"OMYqui_j7TdaBtt-XLgjMRMPU4gGKXMy\";}'
+    'PHPSESSID' => 'sqq84lar6c1bl7pdvsofq10oe3'
+]
+
+$_SESSION = [
+    '__flash' => []
+]
+
+$_SERVER = [
+    'HTTP_HOST' => '192.168.216.131'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 6.3; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/45.0.2454.101 Safari/537.36'
+    'HTTP_REFERER' => 'http://192.168.216.131/frontend/web/index.php'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, sdch'
+    'HTTP_ACCEPT_LANGUAGE' => 'ru-RU,ru;q=0.8,en-US;q=0.6,en;q=0.4'
+    'HTTP_COOKIE' => 'backend_menu=da93bfc085ff9407dad839b6ec81e6cdad96a345ab9e3614285c1598f37e494aa%3A2%3A%7Bi%3A0%3Bs%3A12%3A%22backend_menu%22%3Bi%3A1%3Bs%3A6%3A%22normal%22%3B%7D; _csrf=a70b10e661a75d48e31e4bf1821910741b4afd95b1f7245c8cf89598d0bc78eca%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22OMYqui_j7TdaBtt-XLgjMRMPU4gGKXMy%22%3B%7D; PHPSESSID=sqq84lar6c1bl7pdvsofq10oe3'
+    'PATH' => '/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.7 (Ubuntu) Server at 192.168.216.131 Port 80</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.7 (Ubuntu)'
+    'SERVER_NAME' => '192.168.216.131'
+    'SERVER_ADDR' => '192.168.216.131'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '192.168.216.1'
+    'DOCUMENT_ROOT' => '/var/www/html/yii2'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => '/var/www/html/yii2'
+    'SERVER_ADMIN' => 'webmaster@localhost'
+    'SCRIPT_FILENAME' => '/var/www/html/yii2/frontend/web/index.php'
+    'REMOTE_PORT' => '61554'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => 'r=site%2Flogin'
+    'REQUEST_URI' => '/frontend/web/index.php?r=site%2Flogin'
+    'SCRIPT_NAME' => '/frontend/web/index.php'
+    'PHP_SELF' => '/frontend/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1444733184.554
+    'REQUEST_TIME' => 1444733184
+]
+2015-10-13 11:20:39 [192.168.216.1][1][-][warning][yii\debug\Module::checkAccess] Access to debugger is denied due to IP address restriction. The requesting IP address is 192.168.216.1
+    in /var/www/html/yii2/frontend/views/layouts/main.php:76
+    in /var/www/html/yii2/frontend/controllers/SiteController.php:75
+2015-10-13 11:20:39 [192.168.216.1][1][-][info][application] $_COOKIE = [
+    'backend_menu' => 'da93bfc085ff9407dad839b6ec81e6cdad96a345ab9e3614285c1598f37e494aa:2:{i:0;s:12:\"backend_menu\";i:1;s:6:\"normal\";}'
+    '_csrf' => 'b81a461334a1d601c3e9ed430af9497839634d9c8a7985ea4ab88eb5d3cb6ceca:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"Xzi17OGHe5aCoPynUq3wRTLwacjoXY2b\";}'
+    'PHPSESSID' => 'l13h6ci99srv8q5parjg8cirt0'
+    '_identity' => '2f15032ae0c20fb6954c3f0878614ca6f2f920430e2ca30f604f21fd46c740c8a:2:{i:0;s:9:\"_identity\";i:1;s:46:\"[1,\"C6uI_8yimqDcynW174l0CpETioLV9izc\",2592000]\";}'
+]
+
+$_SESSION = [
+    '__flash' => []
+    '__returnUrl' => '/backend/web/'
+    '__id' => 1
+]
+
+$_SERVER = [
+    'HTTP_HOST' => '192.168.216.131'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 6.3; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/45.0.2454.101 Safari/537.36'
+    'HTTP_REFERER' => 'http://192.168.216.131/frontend/'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, sdch'
+    'HTTP_ACCEPT_LANGUAGE' => 'ru-RU,ru;q=0.8,en-US;q=0.6,en;q=0.4'
+    'HTTP_COOKIE' => 'backend_menu=da93bfc085ff9407dad839b6ec81e6cdad96a345ab9e3614285c1598f37e494aa%3A2%3A%7Bi%3A0%3Bs%3A12%3A%22backend_menu%22%3Bi%3A1%3Bs%3A6%3A%22normal%22%3B%7D; _csrf=b81a461334a1d601c3e9ed430af9497839634d9c8a7985ea4ab88eb5d3cb6ceca%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22Xzi17OGHe5aCoPynUq3wRTLwacjoXY2b%22%3B%7D; PHPSESSID=l13h6ci99srv8q5parjg8cirt0; _identity=2f15032ae0c20fb6954c3f0878614ca6f2f920430e2ca30f604f21fd46c740c8a%3A2%3A%7Bi%3A0%3Bs%3A9%3A%22_identity%22%3Bi%3A1%3Bs%3A46%3A%22%5B1%2C%22C6uI_8yimqDcynW174l0CpETioLV9izc%22%2C2592000%5D%22%3B%7D'
+    'PATH' => '/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.7 (Ubuntu) Server at 192.168.216.131 Port 80</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.7 (Ubuntu)'
+    'SERVER_NAME' => '192.168.216.131'
+    'SERVER_ADDR' => '192.168.216.131'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '192.168.216.1'
+    'DOCUMENT_ROOT' => '/var/www/html/yii2'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => '/var/www/html/yii2'
+    'SERVER_ADMIN' => 'webmaster@localhost'
+    'SCRIPT_FILENAME' => '/var/www/html/yii2/frontend/web/index.php'
+    'REMOTE_PORT' => '62041'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => ''
+    'REQUEST_URI' => '/frontend/web/'
+    'SCRIPT_NAME' => '/frontend/web/index.php'
+    'PHP_SELF' => '/frontend/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1444735239.076
+    'REQUEST_TIME' => 1444735239
+]
+2015-10-13 11:20:41 [192.168.216.1][-][-][warning][yii\debug\Module::checkAccess] Access to debugger is denied due to IP address restriction. The requesting IP address is 192.168.216.1
+    in /var/www/html/yii2/frontend/views/layouts/main.php:76
+    in /var/www/html/yii2/frontend/controllers/SiteController.php:75
+2015-10-13 11:20:41 [192.168.216.1][-][-][info][application] $_COOKIE = [
+    'backend_menu' => 'da93bfc085ff9407dad839b6ec81e6cdad96a345ab9e3614285c1598f37e494aa:2:{i:0;s:12:\"backend_menu\";i:1;s:6:\"normal\";}'
+    '_csrf' => 'a9113d2892c8b7f6127ae4d14c4f927d1fb23962099891b7aea565a00dbe8ec9a:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"n4WFm_8Zsmu8xd_0LBdHt8G_8yqFlZxd\";}'
+    'PHPSESSID' => 'ah4hrgddmj5suecogs2kbiko33'
+]
+
+$_SESSION = [
+    '__flash' => []
+]
+
+$_SERVER = [
+    'HTTP_HOST' => '192.168.216.131'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_CACHE_CONTROL' => 'max-age=0'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 6.3; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/45.0.2454.101 Safari/537.36'
+    'HTTP_REFERER' => 'http://192.168.216.131/frontend/web/'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, sdch'
+    'HTTP_ACCEPT_LANGUAGE' => 'ru-RU,ru;q=0.8,en-US;q=0.6,en;q=0.4'
+    'HTTP_COOKIE' => 'backend_menu=da93bfc085ff9407dad839b6ec81e6cdad96a345ab9e3614285c1598f37e494aa%3A2%3A%7Bi%3A0%3Bs%3A12%3A%22backend_menu%22%3Bi%3A1%3Bs%3A6%3A%22normal%22%3B%7D; _csrf=a9113d2892c8b7f6127ae4d14c4f927d1fb23962099891b7aea565a00dbe8ec9a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22n4WFm_8Zsmu8xd_0LBdHt8G_8yqFlZxd%22%3B%7D; PHPSESSID=ah4hrgddmj5suecogs2kbiko33'
+    'PATH' => '/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.7 (Ubuntu) Server at 192.168.216.131 Port 80</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.7 (Ubuntu)'
+    'SERVER_NAME' => '192.168.216.131'
+    'SERVER_ADDR' => '192.168.216.131'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '192.168.216.1'
+    'DOCUMENT_ROOT' => '/var/www/html/yii2'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => '/var/www/html/yii2'
+    'SERVER_ADMIN' => 'webmaster@localhost'
+    'SCRIPT_FILENAME' => '/var/www/html/yii2/frontend/web/index.php'
+    'REMOTE_PORT' => '62043'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => ''
+    'REQUEST_URI' => '/frontend/web/index.php'
+    'SCRIPT_NAME' => '/frontend/web/index.php'
+    'PHP_SELF' => '/frontend/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1444735241.4
+    'REQUEST_TIME' => 1444735241
+]
+2015-10-13 11:38:38 [192.168.216.1][1][-][warning][yii\debug\Module::checkAccess] Access to debugger is denied due to IP address restriction. The requesting IP address is 192.168.216.1
+    in /var/www/html/yii2/frontend/views/layouts/main.php:76
+    in /var/www/html/yii2/frontend/controllers/SiteController.php:75
+2015-10-13 11:38:38 [192.168.216.1][1][-][info][application] $_COOKIE = [
+    'backend_menu' => 'da93bfc085ff9407dad839b6ec81e6cdad96a345ab9e3614285c1598f37e494aa:2:{i:0;s:12:\"backend_menu\";i:1;s:6:\"normal\";}'
+    '_csrf' => '3222e4fb9952ffce9e4d29ed6ab975ad1f0d66e1a03d96e239e0bbbbe0db965fa:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"Wuv3nGeUvDQxCuL3gZj77J-v3SCvJGJp\";}'
+    'PHPSESSID' => 'hhsin1pebtc1uufm1vtmcngou6'
+    '_identity' => '2f15032ae0c20fb6954c3f0878614ca6f2f920430e2ca30f604f21fd46c740c8a:2:{i:0;s:9:\"_identity\";i:1;s:46:\"[1,\"C6uI_8yimqDcynW174l0CpETioLV9izc\",2592000]\";}'
+]
+
+$_SESSION = [
+    '__flash' => []
+    '__returnUrl' => '/backend/web/'
+    '__id' => 1
+]
+
+$_SERVER = [
+    'HTTP_HOST' => '192.168.216.131'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 6.3; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/45.0.2454.101 Safari/537.36'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, sdch'
+    'HTTP_ACCEPT_LANGUAGE' => 'ru-RU,ru;q=0.8,en-US;q=0.6,en;q=0.4'
+    'HTTP_COOKIE' => 'backend_menu=da93bfc085ff9407dad839b6ec81e6cdad96a345ab9e3614285c1598f37e494aa%3A2%3A%7Bi%3A0%3Bs%3A12%3A%22backend_menu%22%3Bi%3A1%3Bs%3A6%3A%22normal%22%3B%7D; _csrf=3222e4fb9952ffce9e4d29ed6ab975ad1f0d66e1a03d96e239e0bbbbe0db965fa%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22Wuv3nGeUvDQxCuL3gZj77J-v3SCvJGJp%22%3B%7D; PHPSESSID=hhsin1pebtc1uufm1vtmcngou6; _identity=2f15032ae0c20fb6954c3f0878614ca6f2f920430e2ca30f604f21fd46c740c8a%3A2%3A%7Bi%3A0%3Bs%3A9%3A%22_identity%22%3Bi%3A1%3Bs%3A46%3A%22%5B1%2C%22C6uI_8yimqDcynW174l0CpETioLV9izc%22%2C2592000%5D%22%3B%7D'
+    'PATH' => '/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.7 (Ubuntu) Server at 192.168.216.131 Port 80</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.7 (Ubuntu)'
+    'SERVER_NAME' => '192.168.216.131'
+    'SERVER_ADDR' => '192.168.216.131'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '192.168.216.1'
+    'DOCUMENT_ROOT' => '/var/www/html/yii2'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => '/var/www/html/yii2'
+    'SERVER_ADMIN' => 'webmaster@localhost'
+    'SCRIPT_FILENAME' => '/var/www/html/yii2/frontend/web/index.php'
+    'REMOTE_PORT' => '62085'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => ''
+    'REQUEST_URI' => '/frontend/web/'
+    'SCRIPT_NAME' => '/frontend/web/index.php'
+    'PHP_SELF' => '/frontend/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1444736318.266
+    'REQUEST_TIME' => 1444736318
+]
+2015-10-13 12:30:40 [192.168.216.1][1][-][warning][yii\debug\Module::checkAccess] Access to debugger is denied due to IP address restriction. The requesting IP address is 192.168.216.1
+    in /var/www/html/yii2/frontend/views/layouts/main.php:76
+    in /var/www/html/yii2/frontend/controllers/SiteController.php:75
+2015-10-13 12:30:40 [192.168.216.1][1][-][info][application] $_COOKIE = [
+    'backend_menu' => 'da93bfc085ff9407dad839b6ec81e6cdad96a345ab9e3614285c1598f37e494aa:2:{i:0;s:12:\"backend_menu\";i:1;s:6:\"normal\";}'
+    '_csrf' => '0fb58e5201330d8e993dbb78b57c382aa9ae611174aa5d96945a36b2174611f4a:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"oXSWsPug65QbyaUmt-9-UX8201fO_HEA\";}'
+    '_identity' => '2f15032ae0c20fb6954c3f0878614ca6f2f920430e2ca30f604f21fd46c740c8a:2:{i:0;s:9:\"_identity\";i:1;s:46:\"[1,\"C6uI_8yimqDcynW174l0CpETioLV9izc\",2592000]\";}'
+    'PHPSESSID' => 'hhsin1pebtc1uufm1vtmcngou6'
+]
+
+$_SESSION = [
+    '__flash' => []
+    '__returnUrl' => '/backend/web/'
+    '__id' => 1
+]
+
+$_SERVER = [
+    'HTTP_HOST' => '192.168.216.131'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 6.3; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/45.0.2454.101 Safari/537.36'
+    'HTTP_REFERER' => 'http://192.168.216.131/frontend/'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, sdch'
+    'HTTP_ACCEPT_LANGUAGE' => 'ru-RU,ru;q=0.8,en-US;q=0.6,en;q=0.4'
+    'HTTP_COOKIE' => 'backend_menu=da93bfc085ff9407dad839b6ec81e6cdad96a345ab9e3614285c1598f37e494aa%3A2%3A%7Bi%3A0%3Bs%3A12%3A%22backend_menu%22%3Bi%3A1%3Bs%3A6%3A%22normal%22%3B%7D; _csrf=0fb58e5201330d8e993dbb78b57c382aa9ae611174aa5d96945a36b2174611f4a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22oXSWsPug65QbyaUmt-9-UX8201fO_HEA%22%3B%7D; _identity=2f15032ae0c20fb6954c3f0878614ca6f2f920430e2ca30f604f21fd46c740c8a%3A2%3A%7Bi%3A0%3Bs%3A9%3A%22_identity%22%3Bi%3A1%3Bs%3A46%3A%22%5B1%2C%22C6uI_8yimqDcynW174l0CpETioLV9izc%22%2C2592000%5D%22%3B%7D; PHPSESSID=hhsin1pebtc1uufm1vtmcngou6'
+    'PATH' => '/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.7 (Ubuntu) Server at 192.168.216.131 Port 80</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.7 (Ubuntu)'
+    'SERVER_NAME' => '192.168.216.131'
+    'SERVER_ADDR' => '192.168.216.131'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '192.168.216.1'
+    'DOCUMENT_ROOT' => '/var/www/html/yii2'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => '/var/www/html/yii2'
+    'SERVER_ADMIN' => 'webmaster@localhost'
+    'SCRIPT_FILENAME' => '/var/www/html/yii2/frontend/web/index.php'
+    'REMOTE_PORT' => '49698'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => ''
+    'REQUEST_URI' => '/frontend/web/'
+    'SCRIPT_NAME' => '/frontend/web/index.php'
+    'PHP_SELF' => '/frontend/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1444739440.806
+    'REQUEST_TIME' => 1444739440
+]
+2015-10-13 13:09:26 [192.168.216.1][1][-][warning][yii\debug\Module::checkAccess] Access to debugger is denied due to IP address restriction. The requesting IP address is 192.168.216.1
+    in /var/www/html/yii2/frontend/views/layouts/main.php:76
+    in /var/www/html/yii2/frontend/controllers/SiteController.php:75
+2015-10-13 13:09:26 [192.168.216.1][1][-][info][application] $_COOKIE = [
+    'backend_menu' => 'da93bfc085ff9407dad839b6ec81e6cdad96a345ab9e3614285c1598f37e494aa:2:{i:0;s:12:\"backend_menu\";i:1;s:6:\"normal\";}'
+    '_csrf' => '2362c7f15e6566e89c865b6da606fe289d398f387d4508884de8271bf4a6de6ba:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"fEmJAWgazekpQZiPLNkkgBz9dhetuSGi\";}'
+    'PHPSESSID' => 'n7n82gp5n44i64s001bk9tqva0'
+    '_identity' => '2f15032ae0c20fb6954c3f0878614ca6f2f920430e2ca30f604f21fd46c740c8a:2:{i:0;s:9:\"_identity\";i:1;s:46:\"[1,\"C6uI_8yimqDcynW174l0CpETioLV9izc\",2592000]\";}'
+]
+
+$_SESSION = [
+    '__flash' => []
+    '__returnUrl' => '/backend/web/'
+    '__id' => 1
+]
+
+$_SERVER = [
+    'HTTP_HOST' => '192.168.216.131'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 6.3; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/45.0.2454.101 Safari/537.36'
+    'HTTP_REFERER' => 'http://192.168.216.131/frontend/'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, sdch'
+    'HTTP_ACCEPT_LANGUAGE' => 'ru-RU,ru;q=0.8,en-US;q=0.6,en;q=0.4'
+    'HTTP_COOKIE' => 'backend_menu=da93bfc085ff9407dad839b6ec81e6cdad96a345ab9e3614285c1598f37e494aa%3A2%3A%7Bi%3A0%3Bs%3A12%3A%22backend_menu%22%3Bi%3A1%3Bs%3A6%3A%22normal%22%3B%7D; _csrf=2362c7f15e6566e89c865b6da606fe289d398f387d4508884de8271bf4a6de6ba%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22fEmJAWgazekpQZiPLNkkgBz9dhetuSGi%22%3B%7D; PHPSESSID=n7n82gp5n44i64s001bk9tqva0; _identity=2f15032ae0c20fb6954c3f0878614ca6f2f920430e2ca30f604f21fd46c740c8a%3A2%3A%7Bi%3A0%3Bs%3A9%3A%22_identity%22%3Bi%3A1%3Bs%3A46%3A%22%5B1%2C%22C6uI_8yimqDcynW174l0CpETioLV9izc%22%2C2592000%5D%22%3B%7D'
+    'PATH' => '/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.7 (Ubuntu) Server at 192.168.216.131 Port 80</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.7 (Ubuntu)'
+    'SERVER_NAME' => '192.168.216.131'
+    'SERVER_ADDR' => '192.168.216.131'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '192.168.216.1'
+    'DOCUMENT_ROOT' => '/var/www/html/yii2'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => '/var/www/html/yii2'
+    'SERVER_ADMIN' => 'webmaster@localhost'
+    'SCRIPT_FILENAME' => '/var/www/html/yii2/frontend/web/index.php'
+    'REMOTE_PORT' => '50279'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => ''
+    'REQUEST_URI' => '/frontend/web/'
+    'SCRIPT_NAME' => '/frontend/web/index.php'
+    'PHP_SELF' => '/frontend/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1444741766.299
+    'REQUEST_TIME' => 1444741766
+]
+2015-10-13 13:09:27 [192.168.216.1][-][-][warning][yii\debug\Module::checkAccess] Access to debugger is denied due to IP address restriction. The requesting IP address is 192.168.216.1
+    in /var/www/html/yii2/frontend/views/layouts/main.php:76
+    in /var/www/html/yii2/frontend/controllers/SiteController.php:75
+2015-10-13 13:09:27 [192.168.216.1][-][-][info][application] $_COOKIE = [
+    'backend_menu' => 'da93bfc085ff9407dad839b6ec81e6cdad96a345ab9e3614285c1598f37e494aa:2:{i:0;s:12:\"backend_menu\";i:1;s:6:\"normal\";}'
+    '_csrf' => '3af88f694c5262d7b8f65a84a5a7d76f66539e439ff1eccc773aebd139517533a:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"9XDLJONA0H5SWyFkrjngq-wIfnLpwfPj\";}'
+    'PHPSESSID' => '7isbc4sd04tujfo0g75hq3j7q3'
+]
+
+$_SESSION = [
+    '__flash' => []
+]
+
+$_SERVER = [
+    'HTTP_HOST' => '192.168.216.131'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_CACHE_CONTROL' => 'max-age=0'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 6.3; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/45.0.2454.101 Safari/537.36'
+    'HTTP_REFERER' => 'http://192.168.216.131/frontend/web/'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, sdch'
+    'HTTP_ACCEPT_LANGUAGE' => 'ru-RU,ru;q=0.8,en-US;q=0.6,en;q=0.4'
+    'HTTP_COOKIE' => 'backend_menu=da93bfc085ff9407dad839b6ec81e6cdad96a345ab9e3614285c1598f37e494aa%3A2%3A%7Bi%3A0%3Bs%3A12%3A%22backend_menu%22%3Bi%3A1%3Bs%3A6%3A%22normal%22%3B%7D; _csrf=3af88f694c5262d7b8f65a84a5a7d76f66539e439ff1eccc773aebd139517533a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%229XDLJONA0H5SWyFkrjngq-wIfnLpwfPj%22%3B%7D; PHPSESSID=7isbc4sd04tujfo0g75hq3j7q3'
+    'PATH' => '/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.7 (Ubuntu) Server at 192.168.216.131 Port 80</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.7 (Ubuntu)'
+    'SERVER_NAME' => '192.168.216.131'
+    'SERVER_ADDR' => '192.168.216.131'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '192.168.216.1'
+    'DOCUMENT_ROOT' => '/var/www/html/yii2'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => '/var/www/html/yii2'
+    'SERVER_ADMIN' => 'webmaster@localhost'
+    'SCRIPT_FILENAME' => '/var/www/html/yii2/frontend/web/index.php'
+    'REMOTE_PORT' => '50281'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => ''
+    'REQUEST_URI' => '/frontend/web/index.php'
+    'SCRIPT_NAME' => '/frontend/web/index.php'
+    'PHP_SELF' => '/frontend/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1444741767.585
+    'REQUEST_TIME' => 1444741767
+]
+2015-10-13 13:09:28 [192.168.216.1][-][-][warning][yii\debug\Module::checkAccess] Access to debugger is denied due to IP address restriction. The requesting IP address is 192.168.216.1
+    in /var/www/html/yii2/frontend/views/layouts/main.php:76
+    in /var/www/html/yii2/frontend/controllers/SiteController.php:95
+2015-10-13 13:09:28 [192.168.216.1][-][-][info][application] $_GET = [
+    'r' => 'site/login'
+]
+
+$_COOKIE = [
+    'backend_menu' => 'da93bfc085ff9407dad839b6ec81e6cdad96a345ab9e3614285c1598f37e494aa:2:{i:0;s:12:\"backend_menu\";i:1;s:6:\"normal\";}'
+    '_csrf' => '3af88f694c5262d7b8f65a84a5a7d76f66539e439ff1eccc773aebd139517533a:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"9XDLJONA0H5SWyFkrjngq-wIfnLpwfPj\";}'
+    'PHPSESSID' => '7isbc4sd04tujfo0g75hq3j7q3'
+]
+
+$_SESSION = [
+    '__flash' => []
+]
+
+$_SERVER = [
+    'HTTP_HOST' => '192.168.216.131'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 6.3; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/45.0.2454.101 Safari/537.36'
+    'HTTP_REFERER' => 'http://192.168.216.131/frontend/web/index.php'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, sdch'
+    'HTTP_ACCEPT_LANGUAGE' => 'ru-RU,ru;q=0.8,en-US;q=0.6,en;q=0.4'
+    'HTTP_COOKIE' => 'backend_menu=da93bfc085ff9407dad839b6ec81e6cdad96a345ab9e3614285c1598f37e494aa%3A2%3A%7Bi%3A0%3Bs%3A12%3A%22backend_menu%22%3Bi%3A1%3Bs%3A6%3A%22normal%22%3B%7D; _csrf=3af88f694c5262d7b8f65a84a5a7d76f66539e439ff1eccc773aebd139517533a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%229XDLJONA0H5SWyFkrjngq-wIfnLpwfPj%22%3B%7D; PHPSESSID=7isbc4sd04tujfo0g75hq3j7q3'
+    'PATH' => '/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.7 (Ubuntu) Server at 192.168.216.131 Port 80</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.7 (Ubuntu)'
+    'SERVER_NAME' => '192.168.216.131'
+    'SERVER_ADDR' => '192.168.216.131'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '192.168.216.1'
+    'DOCUMENT_ROOT' => '/var/www/html/yii2'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => '/var/www/html/yii2'
+    'SERVER_ADMIN' => 'webmaster@localhost'
+    'SCRIPT_FILENAME' => '/var/www/html/yii2/frontend/web/index.php'
+    'REMOTE_PORT' => '50281'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => 'r=site%2Flogin'
+    'REQUEST_URI' => '/frontend/web/index.php?r=site%2Flogin'
+    'SCRIPT_NAME' => '/frontend/web/index.php'
+    'PHP_SELF' => '/frontend/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1444741768.76
+    'REQUEST_TIME' => 1444741768
+]
+2015-10-13 13:10:37 [192.168.216.1][-][-][warning][yii\debug\Module::checkAccess] Access to debugger is denied due to IP address restriction. The requesting IP address is 192.168.216.1
+    in /var/www/html/yii2/frontend/views/layouts/main.php:76
+    in /var/www/html/yii2/frontend/controllers/SiteController.php:75
+2015-10-13 13:10:37 [192.168.216.1][-][-][info][application] $_COOKIE = [
+    'backend_menu' => 'da93bfc085ff9407dad839b6ec81e6cdad96a345ab9e3614285c1598f37e494aa:2:{i:0;s:12:\"backend_menu\";i:1;s:6:\"normal\";}'
+    '_csrf' => '3af88f694c5262d7b8f65a84a5a7d76f66539e439ff1eccc773aebd139517533a:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"9XDLJONA0H5SWyFkrjngq-wIfnLpwfPj\";}'
+    'PHPSESSID' => '7isbc4sd04tujfo0g75hq3j7q3'
+]
+
+$_SESSION = [
+    '__flash' => []
+]
+
+$_SERVER = [
+    'HTTP_HOST' => '192.168.216.131'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 6.3; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/45.0.2454.101 Safari/537.36'
+    'HTTP_REFERER' => 'http://192.168.216.131/frontend/web/'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, sdch'
+    'HTTP_ACCEPT_LANGUAGE' => 'ru-RU,ru;q=0.8,en-US;q=0.6,en;q=0.4'
+    'HTTP_COOKIE' => 'backend_menu=da93bfc085ff9407dad839b6ec81e6cdad96a345ab9e3614285c1598f37e494aa%3A2%3A%7Bi%3A0%3Bs%3A12%3A%22backend_menu%22%3Bi%3A1%3Bs%3A6%3A%22normal%22%3B%7D; _csrf=3af88f694c5262d7b8f65a84a5a7d76f66539e439ff1eccc773aebd139517533a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%229XDLJONA0H5SWyFkrjngq-wIfnLpwfPj%22%3B%7D; PHPSESSID=7isbc4sd04tujfo0g75hq3j7q3'
+    'PATH' => '/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.7 (Ubuntu) Server at 192.168.216.131 Port 80</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.7 (Ubuntu)'
+    'SERVER_NAME' => '192.168.216.131'
+    'SERVER_ADDR' => '192.168.216.131'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '192.168.216.1'
+    'DOCUMENT_ROOT' => '/var/www/html/yii2'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => '/var/www/html/yii2'
+    'SERVER_ADMIN' => 'webmaster@localhost'
+    'SCRIPT_FILENAME' => '/var/www/html/yii2/frontend/web/index.php'
+    'REMOTE_PORT' => '50286'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => ''
+    'REQUEST_URI' => '/frontend/web/index.php'
+    'SCRIPT_NAME' => '/frontend/web/index.php'
+    'PHP_SELF' => '/frontend/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1444741837.252
+    'REQUEST_TIME' => 1444741837
+]
+2015-10-13 13:11:11 [192.168.216.1][-][-][warning][yii\debug\Module::checkAccess] Access to debugger is denied due to IP address restriction. The requesting IP address is 192.168.216.1
+    in /var/www/html/yii2/frontend/views/layouts/main.php:76
+    in /var/www/html/yii2/frontend/controllers/SiteController.php:95
+2015-10-13 13:11:11 [192.168.216.1][-][-][info][application] $_GET = [
+    'r' => 'site/login'
+]
+
+$_COOKIE = [
+    'backend_menu' => 'da93bfc085ff9407dad839b6ec81e6cdad96a345ab9e3614285c1598f37e494aa:2:{i:0;s:12:\"backend_menu\";i:1;s:6:\"normal\";}'
+    '_csrf' => '3af88f694c5262d7b8f65a84a5a7d76f66539e439ff1eccc773aebd139517533a:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"9XDLJONA0H5SWyFkrjngq-wIfnLpwfPj\";}'
+    'PHPSESSID' => '7isbc4sd04tujfo0g75hq3j7q3'
+]
+
+$_SESSION = [
+    '__flash' => []
+]
+
+$_SERVER = [
+    'HTTP_HOST' => '192.168.216.131'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 6.3; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/45.0.2454.101 Safari/537.36'
+    'HTTP_REFERER' => 'http://192.168.216.131/frontend/web/index.php'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, sdch'
+    'HTTP_ACCEPT_LANGUAGE' => 'ru-RU,ru;q=0.8,en-US;q=0.6,en;q=0.4'
+    'HTTP_COOKIE' => 'backend_menu=da93bfc085ff9407dad839b6ec81e6cdad96a345ab9e3614285c1598f37e494aa%3A2%3A%7Bi%3A0%3Bs%3A12%3A%22backend_menu%22%3Bi%3A1%3Bs%3A6%3A%22normal%22%3B%7D; _csrf=3af88f694c5262d7b8f65a84a5a7d76f66539e439ff1eccc773aebd139517533a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%229XDLJONA0H5SWyFkrjngq-wIfnLpwfPj%22%3B%7D; PHPSESSID=7isbc4sd04tujfo0g75hq3j7q3'
+    'PATH' => '/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.7 (Ubuntu) Server at 192.168.216.131 Port 80</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.7 (Ubuntu)'
+    'SERVER_NAME' => '192.168.216.131'
+    'SERVER_ADDR' => '192.168.216.131'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '192.168.216.1'
+    'DOCUMENT_ROOT' => '/var/www/html/yii2'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => '/var/www/html/yii2'
+    'SERVER_ADMIN' => 'webmaster@localhost'
+    'SCRIPT_FILENAME' => '/var/www/html/yii2/frontend/web/index.php'
+    'REMOTE_PORT' => '50287'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => 'r=site%2Flogin'
+    'REQUEST_URI' => '/frontend/web/index.php?r=site%2Flogin'
+    'SCRIPT_NAME' => '/frontend/web/index.php'
+    'PHP_SELF' => '/frontend/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1444741871.517
+    'REQUEST_TIME' => 1444741871
+]
+2015-10-13 13:11:13 [192.168.216.1][-][-][warning][yii\debug\Module::checkAccess] Access to debugger is denied due to IP address restriction. The requesting IP address is 192.168.216.1
+    in /var/www/html/yii2/frontend/views/layouts/main.php:76
+    in /var/www/html/yii2/frontend/controllers/SiteController.php:185
+2015-10-13 13:11:13 [192.168.216.1][-][-][info][application] $_GET = [
+    'r' => 'site/request-password-reset'
+]
+
+$_COOKIE = [
+    'backend_menu' => 'da93bfc085ff9407dad839b6ec81e6cdad96a345ab9e3614285c1598f37e494aa:2:{i:0;s:12:\"backend_menu\";i:1;s:6:\"normal\";}'
+    '_csrf' => '3af88f694c5262d7b8f65a84a5a7d76f66539e439ff1eccc773aebd139517533a:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"9XDLJONA0H5SWyFkrjngq-wIfnLpwfPj\";}'
+    'PHPSESSID' => '7isbc4sd04tujfo0g75hq3j7q3'
+]
+
+$_SESSION = [
+    '__flash' => []
+]
+
+$_SERVER = [
+    'HTTP_HOST' => '192.168.216.131'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 6.3; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/45.0.2454.101 Safari/537.36'
+    'HTTP_REFERER' => 'http://192.168.216.131/frontend/web/index.php?r=site%2Flogin'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, sdch'
+    'HTTP_ACCEPT_LANGUAGE' => 'ru-RU,ru;q=0.8,en-US;q=0.6,en;q=0.4'
+    'HTTP_COOKIE' => 'backend_menu=da93bfc085ff9407dad839b6ec81e6cdad96a345ab9e3614285c1598f37e494aa%3A2%3A%7Bi%3A0%3Bs%3A12%3A%22backend_menu%22%3Bi%3A1%3Bs%3A6%3A%22normal%22%3B%7D; _csrf=3af88f694c5262d7b8f65a84a5a7d76f66539e439ff1eccc773aebd139517533a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%229XDLJONA0H5SWyFkrjngq-wIfnLpwfPj%22%3B%7D; PHPSESSID=7isbc4sd04tujfo0g75hq3j7q3'
+    'PATH' => '/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.7 (Ubuntu) Server at 192.168.216.131 Port 80</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.7 (Ubuntu)'
+    'SERVER_NAME' => '192.168.216.131'
+    'SERVER_ADDR' => '192.168.216.131'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '192.168.216.1'
+    'DOCUMENT_ROOT' => '/var/www/html/yii2'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => '/var/www/html/yii2'
+    'SERVER_ADMIN' => 'webmaster@localhost'
+    'SCRIPT_FILENAME' => '/var/www/html/yii2/frontend/web/index.php'
+    'REMOTE_PORT' => '50287'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => 'r=site%2Frequest-password-reset'
+    'REQUEST_URI' => '/frontend/web/index.php?r=site%2Frequest-password-reset'
+    'SCRIPT_NAME' => '/frontend/web/index.php'
+    'PHP_SELF' => '/frontend/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1444741873.59
+    'REQUEST_TIME' => 1444741873
+]
+2015-10-13 13:11:21 [192.168.216.1][-][-][warning][yii\debug\Module::checkAccess] Access to debugger is denied due to IP address restriction. The requesting IP address is 192.168.216.1
+    in /var/www/html/yii2/frontend/views/layouts/main.php:76
+    in /var/www/html/yii2/frontend/controllers/SiteController.php:95
+2015-10-13 13:11:21 [192.168.216.1][-][-][info][application] $_GET = [
+    'r' => 'site/login'
+]
+
+$_COOKIE = [
+    'backend_menu' => 'da93bfc085ff9407dad839b6ec81e6cdad96a345ab9e3614285c1598f37e494aa:2:{i:0;s:12:\"backend_menu\";i:1;s:6:\"normal\";}'
+    '_csrf' => '3af88f694c5262d7b8f65a84a5a7d76f66539e439ff1eccc773aebd139517533a:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"9XDLJONA0H5SWyFkrjngq-wIfnLpwfPj\";}'
+    'PHPSESSID' => '7isbc4sd04tujfo0g75hq3j7q3'
+]
+
+$_SESSION = [
+    '__flash' => []
+]
+
+$_SERVER = [
+    'HTTP_HOST' => '192.168.216.131'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 6.3; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/45.0.2454.101 Safari/537.36'
+    'HTTP_REFERER' => 'http://192.168.216.131/frontend/web/index.php'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, sdch'
+    'HTTP_ACCEPT_LANGUAGE' => 'ru-RU,ru;q=0.8,en-US;q=0.6,en;q=0.4'
+    'HTTP_COOKIE' => 'backend_menu=da93bfc085ff9407dad839b6ec81e6cdad96a345ab9e3614285c1598f37e494aa%3A2%3A%7Bi%3A0%3Bs%3A12%3A%22backend_menu%22%3Bi%3A1%3Bs%3A6%3A%22normal%22%3B%7D; _csrf=3af88f694c5262d7b8f65a84a5a7d76f66539e439ff1eccc773aebd139517533a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%229XDLJONA0H5SWyFkrjngq-wIfnLpwfPj%22%3B%7D; PHPSESSID=7isbc4sd04tujfo0g75hq3j7q3'
+    'PATH' => '/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.7 (Ubuntu) Server at 192.168.216.131 Port 80</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.7 (Ubuntu)'
+    'SERVER_NAME' => '192.168.216.131'
+    'SERVER_ADDR' => '192.168.216.131'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '192.168.216.1'
+    'DOCUMENT_ROOT' => '/var/www/html/yii2'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => '/var/www/html/yii2'
+    'SERVER_ADMIN' => 'webmaster@localhost'
+    'SCRIPT_FILENAME' => '/var/www/html/yii2/frontend/web/index.php'
+    'REMOTE_PORT' => '50289'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => 'r=site%2Flogin'
+    'REQUEST_URI' => '/frontend/web/index.php?r=site%2Flogin'
+    'SCRIPT_NAME' => '/frontend/web/index.php'
+    'PHP_SELF' => '/frontend/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1444741881.084
+    'REQUEST_TIME' => 1444741881
+]
+2015-10-13 13:24:01 [192.168.216.1][-][-][warning][yii\debug\Module::checkAccess] Access to debugger is denied due to IP address restriction. The requesting IP address is 192.168.216.1
+    in /var/www/html/yii2/frontend/views/layouts/main.php:76
+    in /var/www/html/yii2/frontend/controllers/SiteController.php:130
+2015-10-13 13:24:01 [192.168.216.1][-][-][info][application] $_GET = [
+    'r' => 'site/contact'
+]
+
+$_COOKIE = [
+    'backend_menu' => 'da93bfc085ff9407dad839b6ec81e6cdad96a345ab9e3614285c1598f37e494aa:2:{i:0;s:12:\"backend_menu\";i:1;s:6:\"normal\";}'
+    '_csrf' => '3af88f694c5262d7b8f65a84a5a7d76f66539e439ff1eccc773aebd139517533a:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"9XDLJONA0H5SWyFkrjngq-wIfnLpwfPj\";}'
+    'PHPSESSID' => '7isbc4sd04tujfo0g75hq3j7q3'
+]
+
+$_SESSION = [
+    '__flash' => []
+    '__captcha/site/captcha' => 'bavuvsf'
+    '__captcha/site/captchacount' => 1
+]
+
+$_SERVER = [
+    'HTTP_HOST' => '192.168.216.131'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 6.3; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/45.0.2454.101 Safari/537.36'
+    'HTTP_REFERER' => 'http://192.168.216.131/frontend/web/index.php?r=site%2Flogin'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, sdch'
+    'HTTP_ACCEPT_LANGUAGE' => 'ru-RU,ru;q=0.8,en-US;q=0.6,en;q=0.4'
+    'HTTP_COOKIE' => 'backend_menu=da93bfc085ff9407dad839b6ec81e6cdad96a345ab9e3614285c1598f37e494aa%3A2%3A%7Bi%3A0%3Bs%3A12%3A%22backend_menu%22%3Bi%3A1%3Bs%3A6%3A%22normal%22%3B%7D; _csrf=3af88f694c5262d7b8f65a84a5a7d76f66539e439ff1eccc773aebd139517533a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%229XDLJONA0H5SWyFkrjngq-wIfnLpwfPj%22%3B%7D; PHPSESSID=7isbc4sd04tujfo0g75hq3j7q3'
+    'PATH' => '/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.7 (Ubuntu) Server at 192.168.216.131 Port 80</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.7 (Ubuntu)'
+    'SERVER_NAME' => '192.168.216.131'
+    'SERVER_ADDR' => '192.168.216.131'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '192.168.216.1'
+    'DOCUMENT_ROOT' => '/var/www/html/yii2'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => '/var/www/html/yii2'
+    'SERVER_ADMIN' => 'webmaster@localhost'
+    'SCRIPT_FILENAME' => '/var/www/html/yii2/frontend/web/index.php'
+    'REMOTE_PORT' => '50419'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => 'r=site%2Fcontact'
+    'REQUEST_URI' => '/frontend/web/index.php?r=site%2Fcontact'
+    'SCRIPT_NAME' => '/frontend/web/index.php'
+    'PHP_SELF' => '/frontend/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1444742641.353
+    'REQUEST_TIME' => 1444742641
+]
+2015-10-13 13:24:10 [192.168.216.1][-][-][warning][yii\debug\Module::checkAccess] Access to debugger is denied due to IP address restriction. The requesting IP address is 192.168.216.1
+    in /var/www/html/yii2/frontend/views/layouts/main.php:76
+    in /var/www/html/yii2/frontend/controllers/SiteController.php:141
+2015-10-13 13:24:10 [192.168.216.1][-][-][info][application] $_GET = [
+    'r' => 'site/about'
+]
+
+$_COOKIE = [
+    'backend_menu' => 'da93bfc085ff9407dad839b6ec81e6cdad96a345ab9e3614285c1598f37e494aa:2:{i:0;s:12:\"backend_menu\";i:1;s:6:\"normal\";}'
+    '_csrf' => '3af88f694c5262d7b8f65a84a5a7d76f66539e439ff1eccc773aebd139517533a:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"9XDLJONA0H5SWyFkrjngq-wIfnLpwfPj\";}'
+    'PHPSESSID' => '7isbc4sd04tujfo0g75hq3j7q3'
+]
+
+$_SESSION = [
+    '__flash' => []
+    '__captcha/site/captcha' => 'bavuvsf'
+    '__captcha/site/captchacount' => 1
+]
+
+$_SERVER = [
+    'HTTP_HOST' => '192.168.216.131'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 6.3; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/45.0.2454.101 Safari/537.36'
+    'HTTP_REFERER' => 'http://192.168.216.131/frontend/web/index.php?r=site%2Fcontact'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, sdch'
+    'HTTP_ACCEPT_LANGUAGE' => 'ru-RU,ru;q=0.8,en-US;q=0.6,en;q=0.4'
+    'HTTP_COOKIE' => 'backend_menu=da93bfc085ff9407dad839b6ec81e6cdad96a345ab9e3614285c1598f37e494aa%3A2%3A%7Bi%3A0%3Bs%3A12%3A%22backend_menu%22%3Bi%3A1%3Bs%3A6%3A%22normal%22%3B%7D; _csrf=3af88f694c5262d7b8f65a84a5a7d76f66539e439ff1eccc773aebd139517533a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%229XDLJONA0H5SWyFkrjngq-wIfnLpwfPj%22%3B%7D; PHPSESSID=7isbc4sd04tujfo0g75hq3j7q3'
+    'PATH' => '/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.7 (Ubuntu) Server at 192.168.216.131 Port 80</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.7 (Ubuntu)'
+    'SERVER_NAME' => '192.168.216.131'
+    'SERVER_ADDR' => '192.168.216.131'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '192.168.216.1'
+    'DOCUMENT_ROOT' => '/var/www/html/yii2'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => '/var/www/html/yii2'
+    'SERVER_ADMIN' => 'webmaster@localhost'
+    'SCRIPT_FILENAME' => '/var/www/html/yii2/frontend/web/index.php'
+    'REMOTE_PORT' => '50423'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => 'r=site%2Fabout'
+    'REQUEST_URI' => '/frontend/web/index.php?r=site%2Fabout'
+    'SCRIPT_NAME' => '/frontend/web/index.php'
+    'PHP_SELF' => '/frontend/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1444742650.287
+    'REQUEST_TIME' => 1444742650
+]
+2015-10-13 13:24:10 [192.168.216.1][-][-][warning][yii\debug\Module::checkAccess] Access to debugger is denied due to IP address restriction. The requesting IP address is 192.168.216.1
+    in /var/www/html/yii2/frontend/views/layouts/main.php:76
+    in /var/www/html/yii2/frontend/controllers/SiteController.php:130
+2015-10-13 13:24:10 [192.168.216.1][-][-][info][application] $_GET = [
+    'r' => 'site/contact'
+]
+
+$_COOKIE = [
+    'backend_menu' => 'da93bfc085ff9407dad839b6ec81e6cdad96a345ab9e3614285c1598f37e494aa:2:{i:0;s:12:\"backend_menu\";i:1;s:6:\"normal\";}'
+    '_csrf' => '3af88f694c5262d7b8f65a84a5a7d76f66539e439ff1eccc773aebd139517533a:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"9XDLJONA0H5SWyFkrjngq-wIfnLpwfPj\";}'
+    'PHPSESSID' => '7isbc4sd04tujfo0g75hq3j7q3'
+]
+
+$_SESSION = [
+    '__flash' => []
+    '__captcha/site/captcha' => 'bavuvsf'
+    '__captcha/site/captchacount' => 1
+]
+
+$_SERVER = [
+    'HTTP_HOST' => '192.168.216.131'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 6.3; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/45.0.2454.101 Safari/537.36'
+    'HTTP_REFERER' => 'http://192.168.216.131/frontend/web/index.php?r=site%2Fabout'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, sdch'
+    'HTTP_ACCEPT_LANGUAGE' => 'ru-RU,ru;q=0.8,en-US;q=0.6,en;q=0.4'
+    'HTTP_COOKIE' => 'backend_menu=da93bfc085ff9407dad839b6ec81e6cdad96a345ab9e3614285c1598f37e494aa%3A2%3A%7Bi%3A0%3Bs%3A12%3A%22backend_menu%22%3Bi%3A1%3Bs%3A6%3A%22normal%22%3B%7D; _csrf=3af88f694c5262d7b8f65a84a5a7d76f66539e439ff1eccc773aebd139517533a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%229XDLJONA0H5SWyFkrjngq-wIfnLpwfPj%22%3B%7D; PHPSESSID=7isbc4sd04tujfo0g75hq3j7q3'
+    'PATH' => '/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.7 (Ubuntu) Server at 192.168.216.131 Port 80</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.7 (Ubuntu)'
+    'SERVER_NAME' => '192.168.216.131'
+    'SERVER_ADDR' => '192.168.216.131'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '192.168.216.1'
+    'DOCUMENT_ROOT' => '/var/www/html/yii2'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => '/var/www/html/yii2'
+    'SERVER_ADMIN' => 'webmaster@localhost'
+    'SCRIPT_FILENAME' => '/var/www/html/yii2/frontend/web/index.php'
+    'REMOTE_PORT' => '50423'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => 'r=site%2Fcontact'
+    'REQUEST_URI' => '/frontend/web/index.php?r=site%2Fcontact'
+    'SCRIPT_NAME' => '/frontend/web/index.php'
+    'PHP_SELF' => '/frontend/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1444742650.807
+    'REQUEST_TIME' => 1444742650
+]
