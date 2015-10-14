@@ -22,9 +22,12 @@ return [
             'enablePrettyUrl' => true,
             'showScriptName' => false,
             'rules' => [
-                //'admin' => 'backend/web/index'
+                '' => 'site/index',
+                '<action>'=>'site/<action>'
             ],
         ],
+        'request' => [
+            'baseUrl' => '/admin'],
         'user' => [
             'identityClass' => 'common\models\User',
             'enableAutoLogin' => true,

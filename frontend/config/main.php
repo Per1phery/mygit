@@ -12,6 +12,17 @@ return [
     'bootstrap' => ['log'],
     'controllerNamespace' => 'frontend\controllers',
     'components' => [
+        'urlManager' => [
+            'enablePrettyUrl' => true,
+            'showScriptName' => false,
+            'rules' => [
+                '' => 'site/index',
+                '<action>'=>'site/<action>',
+            ],
+        ],
+        'request' => [
+            'baseUrl' => ''
+        ],
         'user' => [
             'identityClass' => 'common\models\User',
             'enableAutoLogin' => true,
