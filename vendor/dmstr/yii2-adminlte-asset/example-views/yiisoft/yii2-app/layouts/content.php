@@ -36,6 +36,10 @@ use dmstr\widgets\Alert;
         ?>
     </section>
     <section class="content">
+
+        <?php
+        \yii\helpers\VarDumper::dump(Yii::$app->modules,2,true)
+        ?>
         <?= Alert::widget() ?>
         <?= $content ?>
     </section>

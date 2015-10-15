@@ -1346,3 +1346,180 @@ $_SERVER = [
     'REQUEST_TIME_FLOAT' => 1444742650.807
     'REQUEST_TIME' => 1444742650
 ]
+2015-10-15 08:48:13 [192.168.178.1][-][-][warning][yii\debug\Module::checkAccess] Access to debugger is denied due to IP address restriction. The requesting IP address is 192.168.178.1
+    in /var/www/html/yii2/mygit/frontend/views/layouts/main.php:76
+    in /var/www/html/yii2/mygit/frontend/controllers/SiteController.php:75
+2015-10-15 08:48:13 [192.168.178.1][-][-][info][application] $_SESSION = [
+    '__flash' => []
+]
+
+$_SERVER = [
+    'REDIRECT_STATUS' => '200'
+    'HTTP_HOST' => '192.168.178.128'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_CACHE_CONTROL' => 'max-age=0'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 6.3; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/46.0.2490.71 Safari/537.36'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, sdch'
+    'HTTP_ACCEPT_LANGUAGE' => 'ru,en-US;q=0.8,en;q=0.6'
+    'PATH' => '/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.7 (Ubuntu) Server at 192.168.178.128 Port 80</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.7 (Ubuntu)'
+    'SERVER_NAME' => '192.168.178.128'
+    'SERVER_ADDR' => '192.168.178.128'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '192.168.178.1'
+    'DOCUMENT_ROOT' => '/var/www/html/yii2/mygit'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => '/var/www/html/yii2/mygit'
+    'SERVER_ADMIN' => 'webmaster@localhost'
+    'SCRIPT_FILENAME' => '/var/www/html/yii2/mygit/frontend/web/index.php'
+    'REMOTE_PORT' => '49533'
+    'REDIRECT_URL' => '/'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => ''
+    'REQUEST_URI' => '/'
+    'SCRIPT_NAME' => '/frontend/web/index.php'
+    'PHP_SELF' => '/frontend/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1444898893.01
+    'REQUEST_TIME' => 1444898893
+]
+2015-10-15 08:50:18 [192.168.178.1][-][-][warning][yii\debug\Module::checkAccess] Access to debugger is denied due to IP address restriction. The requesting IP address is 192.168.178.1
+    in /var/www/html/yii2/mygit/frontend/views/layouts/main.php:76
+    in /var/www/html/yii2/mygit/frontend/controllers/SiteController.php:75
+2015-10-15 08:50:18 [192.168.178.1][-][-][info][application] $_SESSION = [
+    '__flash' => []
+]
+
+$_SERVER = [
+    'REDIRECT_STATUS' => '200'
+    'HTTP_USER_AGENT' => 'Jakarta Commons-HttpClient/3.1'
+    'HTTP_HOST' => '192.168.178.128'
+    'PATH' => '/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.7 (Ubuntu) Server at 192.168.178.128 Port 80</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.7 (Ubuntu)'
+    'SERVER_NAME' => '192.168.178.128'
+    'SERVER_ADDR' => '192.168.178.128'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '192.168.178.1'
+    'DOCUMENT_ROOT' => '/var/www/html/yii2/mygit'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => '/var/www/html/yii2/mygit'
+    'SERVER_ADMIN' => 'webmaster@localhost'
+    'SCRIPT_FILENAME' => '/var/www/html/yii2/mygit/frontend/web/index.php'
+    'REMOTE_PORT' => '49556'
+    'REDIRECT_URL' => '/'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'HEAD'
+    'QUERY_STRING' => ''
+    'REQUEST_URI' => '/'
+    'SCRIPT_NAME' => '/frontend/web/index.php'
+    'PHP_SELF' => '/frontend/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1444899018.075
+    'REQUEST_TIME' => 1444899018
+]
+2015-10-15 08:50:18 [192.168.178.1][-][-][warning][yii\debug\Module::checkAccess] Access to debugger is denied due to IP address restriction. The requesting IP address is 192.168.178.1
+    in /var/www/html/yii2/mygit/frontend/views/layouts/main.php:76
+    in /var/www/html/yii2/mygit/frontend/controllers/SiteController.php:75
+2015-10-15 08:50:18 [192.168.178.1][-][-][info][application] $_COOKIE = [
+    '$Version' => '0'
+    'PHPSESSID' => 'u9d8g4qfkllc2oqutf8mo678f3'
+    '$Path' => '/, $Version=0'
+    '_csrf' => '666805daf141eec2bd2c79eb9b80272bf7b1156208a57efff4a63ba2ca0afa32a:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"u7Uzm3kLGIWa43c_Jde4WQITbzy7fZvz\";}'
+]
+
+$_SESSION = [
+    '__flash' => []
+]
+
+$_SERVER = [
+    'REDIRECT_STATUS' => '200'
+    'HTTP_USER_AGENT' => 'Jakarta-Commons-VFS'
+    'HTTP_HOST' => '192.168.178.128'
+    'HTTP_COOKIE' => '$Version=0; PHPSESSID=u9d8g4qfkllc2oqutf8mo678f3; $Path=/, $Version=0; _csrf=666805daf141eec2bd2c79eb9b80272bf7b1156208a57efff4a63ba2ca0afa32a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22u7Uzm3kLGIWa43c_Jde4WQITbzy7fZvz%22%3B%7D; $Path=/'
+    'PATH' => '/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.7 (Ubuntu) Server at 192.168.178.128 Port 80</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.7 (Ubuntu)'
+    'SERVER_NAME' => '192.168.178.128'
+    'SERVER_ADDR' => '192.168.178.128'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '192.168.178.1'
+    'DOCUMENT_ROOT' => '/var/www/html/yii2/mygit'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => '/var/www/html/yii2/mygit'
+    'SERVER_ADMIN' => 'webmaster@localhost'
+    'SCRIPT_FILENAME' => '/var/www/html/yii2/mygit/frontend/web/index.php'
+    'REMOTE_PORT' => '49556'
+    'REDIRECT_URL' => '/'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'HEAD'
+    'QUERY_STRING' => ''
+    'REQUEST_URI' => '/'
+    'SCRIPT_NAME' => '/frontend/web/index.php'
+    'PHP_SELF' => '/frontend/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1444899018.112
+    'REQUEST_TIME' => 1444899018
+]
+2015-10-15 08:59:19 [192.168.178.1][1][-][warning][yii\debug\Module::checkAccess] Access to debugger is denied due to IP address restriction. The requesting IP address is 192.168.178.1
+    in /var/www/html/yii2/mygit/frontend/views/layouts/main.php:76
+    in /var/www/html/yii2/mygit/frontend/controllers/SiteController.php:75
+2015-10-15 08:59:19 [192.168.178.1][1][-][info][application] $_COOKIE = [
+    '_csrf' => '5f3e48e1ad9c59f56c91b05d9645638fa2559a15ec4db2dca49cd080b300b4bda:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"r-8NzFnOT0ZB6dgvtt3ZKRBX1Rxf1qVA\";}'
+    'PHPSESSID' => 'j5jq2mnhkflmmtmvspooqt2gn4'
+    '_identity' => '2f15032ae0c20fb6954c3f0878614ca6f2f920430e2ca30f604f21fd46c740c8a:2:{i:0;s:9:\"_identity\";i:1;s:46:\"[1,\"C6uI_8yimqDcynW174l0CpETioLV9izc\",2592000]\";}'
+]
+
+$_SESSION = [
+    '__flash' => []
+    '__returnUrl' => '/admin'
+    '__id' => 1
+]
+
+$_SERVER = [
+    'REDIRECT_REDIRECT_STATUS' => '200'
+    'REDIRECT_STATUS' => '200'
+    'HTTP_HOST' => '192.168.178.128'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 6.3; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/46.0.2490.71 Safari/537.36'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, sdch'
+    'HTTP_ACCEPT_LANGUAGE' => 'ru,en-US;q=0.8,en;q=0.6'
+    'HTTP_COOKIE' => '_csrf=5f3e48e1ad9c59f56c91b05d9645638fa2559a15ec4db2dca49cd080b300b4bda%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22r-8NzFnOT0ZB6dgvtt3ZKRBX1Rxf1qVA%22%3B%7D; PHPSESSID=j5jq2mnhkflmmtmvspooqt2gn4; _identity=2f15032ae0c20fb6954c3f0878614ca6f2f920430e2ca30f604f21fd46c740c8a%3A2%3A%7Bi%3A0%3Bs%3A9%3A%22_identity%22%3Bi%3A1%3Bs%3A46%3A%22%5B1%2C%22C6uI_8yimqDcynW174l0CpETioLV9izc%22%2C2592000%5D%22%3B%7D'
+    'PATH' => '/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.7 (Ubuntu) Server at 192.168.178.128 Port 80</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.7 (Ubuntu)'
+    'SERVER_NAME' => '192.168.178.128'
+    'SERVER_ADDR' => '192.168.178.128'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '192.168.178.1'
+    'DOCUMENT_ROOT' => '/var/www/html/yii2/mygit'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => '/var/www/html/yii2/mygit'
+    'SERVER_ADMIN' => 'webmaster@localhost'
+    'SCRIPT_FILENAME' => '/var/www/html/yii2/mygit/frontend/web/index.php'
+    'REMOTE_PORT' => '54641'
+    'REDIRECT_URL' => '/frontend/web/ad'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => ''
+    'REQUEST_URI' => '/ad'
+    'SCRIPT_NAME' => '/frontend/web/index.php'
+    'PHP_SELF' => '/frontend/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1444899559.158
+    'REQUEST_TIME' => 1444899559
+]

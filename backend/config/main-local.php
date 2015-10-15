@@ -14,7 +14,7 @@ if (!YII_ENV_TEST) {
     $config['bootstrap'][] = 'debug';
     $config['modules']['debug'] = [
         'class' => 'yii\debug\Module',
-        'allowedIPs' => ['127.0.0.1', '::1', '192.168.216.131', '192.168.216.1'],
+        'allowedIPs' => ['127.0.0.1', '::1', '192.168.216.131', '192.168.*.*'],
 
     ];
 
@@ -22,7 +22,7 @@ if (!YII_ENV_TEST) {
     $config['modules']['gii'] = [
         'class' => 'yii\gii\Module',
 //        'class' => 'yiigiiModule',
-        'allowedIPs' => ['127.0.0.1', '::1', '192.168.216.131', '192.168.216.1'],
+        'allowedIPs' => ['127.0.0.1', '::1', '192.168.216.131', '192.168.*.*'],
     ];
 }
 
