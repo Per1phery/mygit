@@ -1,3 +1,14 @@
+<?php
+use backend\models\AdminMenu;
+
+$items = [];
+$items[] = ['label' => 'Menu Yii2', 'options' => ['class' => 'header']];
+foreach (AdminMenu::find()->orderBy('position')->all() as $menu_item) {
+    $items[] = ['label' => $menu_item->name, 'icon' => $menu_item->icon, 'url' => [$menu_item->url]];
+}
+
+?>
+
 <aside class="main-sidebar">
 
     <section class="sidebar">
@@ -26,7 +37,8 @@
         </form>
         <!-- /.search form -->
 
-        <?= dmstr\widgets\Menu::widget(
+        <?= //php var_dump($items);
+            /* dmstr\widgets\Menu::widget(
             [
                 'options' => ['class' => 'sidebar-menu'],
                 'items' => [
@@ -66,7 +78,17 @@
                     ],
                 ],
             ]
-        ) ?>
+        )*/
+
+        dmstr\widgets\Menu::widget(
+        [    'options' => ['class' => 'sidebar-menu'],
+            'items' => $items,
+        ]
+
+        )
+
+
+        ?>
 
     </section>
 

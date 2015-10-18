@@ -1,7 +1,8 @@
 <?php
-use Yii;
+//use yii;
 use yii\helpers\Html;
 use common\models\Module;
+use yii\helpers\VarDumper;
 ?>
 
 <?php foreach(Module::getInstalled() as $i): ?>
@@ -11,17 +12,27 @@ use common\models\Module;
     </div>
 <?php endforeach; ?>
 
-<hr>
-
-<?php foreach(Module::getAvailable() as $i): ?>
+<?php foreach(Module::getAvailable() as $k=>$i): ?>
     <div style="height: 40px">
-        <div style="float: left;"><?php echo $i?></div>
-        <div style="float: right"><?php echo Html::a(Yii::t('app', 'Install'), ['install', 'name' => $i], ['class' => 'btn btn-primary', 'confirm'=>'Are you sure?'])?></div>
+        <div style="float: left;">
+
+            <?php echo '<span style="color:green; font-size: 14px;">'.$i['info']['name'].'</span>';
+                        if($i['dependencies']) {
+                            echo '<span style="color:red; font-size: 14px;"> Зависимости: ';
+                            foreach ($i['dependencies'] as $d) {
+                                echo '<span style="color: black; font-size:14px;">'.$d . " </span>";
+                            }
+                            echo '</span>';
+                        }
+        ?>
+        </div>
+
+        <div style="float: right"><?php echo Html::a(Yii::t('app', 'Install'), ['install', 'name' => $i['moduleName']], ['class' => 'btn btn-primary', 'confirm'=>'Are you sure?'])?></div>
         <br>
     </div>
 <?php endforeach; ?>
 <?php
-
+ //echo var_dump(yii::$app->getModules());
 ?>
 
 

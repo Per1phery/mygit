@@ -32,7 +32,8 @@ class Module extends \yii\db\ActiveRecord
     {
         return [
             [['status'], 'integer'],
-            [['name'], 'string', 'max' => 255]
+            [['name'], 'string', 'max' => 255],
+            [['namespace'], 'string', 'max' => 255]
         ];
     }
 
@@ -44,6 +45,7 @@ class Module extends \yii\db\ActiveRecord
         return [
             'id' => Yii::t('app', 'ID'),
             'name' => Yii::t('app', 'Name'),
+            'namespace' => Yii::t('app', 'NameSpace'),
             'status' => Yii::t('app', 'Status'),
         ];
     }
@@ -70,7 +72,13 @@ class Module extends \yii\db\ActiveRecord
             foreach ($dirs as $dir) {
                 $parts = explode(DIRECTORY_SEPARATOR, $dir);
                 $moduleName = $parts[count($parts) - 1];
-                $modules[$moduleName] = $moduleName;
+                $params = array();
+                $params['moduleName'] = $moduleName;
+                $class_name = 'common\\modules\\' . $moduleName . '\\' . $moduleName;
+                if(class_exists($class_name)) $params['dependencies'] = $class_name::getDependencies();
+                if(class_exists($class_name)) $params['info'] = $class_name::getInfo();
+                $modules[$moduleName] = $params;
+
             }
 
             $installed = self::getInstalled();
@@ -80,5 +88,7 @@ class Module extends \yii\db\ActiveRecord
         } else {
             return self::$_available_modules;
         }
+
+
     }
 }

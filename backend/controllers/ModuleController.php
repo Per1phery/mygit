@@ -23,9 +23,9 @@ class ModuleController extends AdminController
             $module->name = $name;
             $module->status = 1;
 
-            $class = $this->path($name);
+            $class = $module->namespace = $this->path($name);
 
-            if (class_exists($class) && $module->save()) {
+            if(class_exists($class) && $class::checkDependencies($class::getDependencies()) && $module->save()) {
                 $class::afterInstall();
                 Yii::$app->session->setFlash('success', Yii::t('app', 'Module has been saved'));
             } else {

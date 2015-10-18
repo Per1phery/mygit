@@ -3,20 +3,16 @@
 use yii\db\Schema;
 use yii\db\Migration;
 
-class m151015_142640_module extends Migration
+class m151014_014510_updateModules extends Migration
 {
     public function up()
     {
-        $this->createTable('module', [
-            'id' => Schema::TYPE_PK,
-            'name' => Schema::TYPE_STRING,
-            'status' => Schema::TYPE_BOOLEAN
-        ]);
+        $this->addColumn('module','menu_name', 'string');
     }
 
     public function down()
     {
-        $this->dropTable('module');
+        $this->dropColumn('module','menu_name');
     }
 
     /*
